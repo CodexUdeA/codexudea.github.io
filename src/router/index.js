@@ -1,11 +1,14 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Test from '../pages/test.vue';
+
+import Events from '../pages/events.vue';
 import Home from '../pages/home.vue';
+import ShareATalk from '../pages/share-a-talk.vue';
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -13,9 +16,14 @@ export default new Router({
       component: Home
     },
     {
-      path: '/test',
-      name: 'Test',
-      component: Test
-    }
+      path: '/events',
+      name: 'Events',
+      component: Events
+    },
+    {
+      path: '/share-a-talk',
+      name: 'ShareATalk',
+      component: ShareATalk
+    },
   ]
 });
