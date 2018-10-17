@@ -1,5 +1,5 @@
 # Codex Website
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 > Our first OS project :tada
 
@@ -27,8 +27,8 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/3869412?v=4" width="100px;"/><br /><sub><b>Jeroen Engels</b></sub>](https://github.com/jfmengels)<br />[📖](https://github.com/ManuCastrillonM/codex website/commits?author=jfmengels "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/10585946?v=4" width="100px;"/><br /><sub><b>Manuela</b></sub>](http://www.manucastrillonm.co)<br />[💻](https://github.com/ManuCastrillonM/codex website/commits?author=ManuCastrillonM "Code") |
-| :---: | :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/3869412?v=4" width="100px;"/><br /><sub><b>Jeroen Engels</b></sub>](https://github.com/jfmengels)<br />[📖](https://github.com/ManuCastrillonM/codex website/commits?author=jfmengels "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/10585946?v=4" width="100px;"/><br /><sub><b>Manuela</b></sub>](http://www.manucastrillonm.co)<br />[💻](https://github.com/ManuCastrillonM/codex website/commits?author=ManuCastrillonM "Code") | [<img src="https://avatars0.githubusercontent.com/u/10585976?v=4" width="100px;"/><br /><sub><b>martineliasq</b></sub>](https://github.com/MartinEliasQ)<br />[📋](#eventOrganizing-MartinEliasQ "Event Organizing") |
+| :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all contributors](https://github.com/kentcdodds/all-contributors) specification.
