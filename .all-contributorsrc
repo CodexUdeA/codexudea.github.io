@@ -10,30 +10,25 @@
   "commit": true,
   "contributors": [
     {
-      "login": "jfmengels",
-      "name": "Jeroen Engels",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/3869412?v=4",
-      "profile": "https://github.com/jfmengels",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
       "login": "ManuCastrillonM",
-      "name": "Manuela",
+      "name": "Manu Castrillon",
       "avatar_url": "https://avatars2.githubusercontent.com/u/10585946?v=4",
       "profile": "http://www.manucastrillonm.co",
       "contributions": [
-        "code"
+        "code",
+        "eventOrganizing",
+        "doc",
+        "talk"
       ]
     },
     {
       "login": "MartinEliasQ",
-      "name": "martineliasq",
+      "name": "Martin Quintero",
       "avatar_url": "https://avatars0.githubusercontent.com/u/10585976?v=4",
       "profile": "https://github.com/MartinEliasQ",
       "contributions": [
-        "eventOrganizing"
+        "eventOrganizing",
+        "talk"
       ]
     },
     {
@@ -43,6 +38,15 @@
       "profile": "https://github.com/am9805",
       "contributions": [
         "eventOrganizing"
+      ]
+    },
+    {
+      "login": "camilocls",
+      "name": "Camilo López",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6959849?v=4",
+      "profile": "http://camilo.io",
+      "contributions": [
+        "design"
       ]
     }
   ]
