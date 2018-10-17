@@ -1,12 +1,12 @@
 <template>
-  <div class="home-page">
-    <h1>Home page</h1>
+  <div class="share-a-talk-page">
+    <h1>Share a talk</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'home-page'
+  name: 'share-a-talk-page'
 }
 </script>
 
