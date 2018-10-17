@@ -1,0 +1,53 @@
+{
+  "projectName": "website",
+  "projectOwner": "CodexUdeA",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "ManuCastrillonM",
+      "name": "Manu Castrillon",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10585946?v=4",
+      "profile": "http://www.manucastrillonm.co",
+      "contributions": [
+        "code",
+        "eventOrganizing",
+        "doc",
+        "talk"
+      ]
+    },
+    {
+      "login": "MartinEliasQ",
+      "name": "Martin Quintero",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10585976?v=4",
+      "profile": "https://github.com/MartinEliasQ",
+      "contributions": [
+        "eventOrganizing",
+        "talk"
+      ]
+    },
+    {
+      "login": "am9805",
+      "name": "Angélica Arroyave",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19578435?v=4",
+      "profile": "https://github.com/am9805",
+      "contributions": [
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "camilocls",
+      "name": "Camilo López",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6959849?v=4",
+      "profile": "http://camilo.io",
+      "contributions": [
+        "design"
+      ]
+    }
+  ]
+}
