@@ -1,8 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", Helvetica, Arial, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
