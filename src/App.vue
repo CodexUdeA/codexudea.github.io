@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <div class="welcome">
-      <div class="row middle-xs center-xs">
-        <div class="col-xs-12">
-          <img src="../src/assets/images/logo.svg" alt="codex logo">
-          <h1>This project will be amazing!</h1>
-        </div>
+    <div class="welcome row middle-xs center-xs">
+      <div class="col-xs-12">
+        <img src="../src/assets/images/logo.svg" alt="codex logo">
+        <h1>This project will be amazing!</h1>
       </div>
     </div>
     <router-view></router-view>
