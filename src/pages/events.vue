@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'events-page'
-  }
+export default {
+  name: 'events-page'
+}
 </script>
 
 <style lang="scss">
