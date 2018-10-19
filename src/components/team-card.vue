@@ -9,5 +9,7 @@
 </script>
 
 <style lang="scss">
-  .team-card {}
+  .team-card {
+    
+  }
 </style>
