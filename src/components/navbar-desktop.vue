@@ -1,11 +1,11 @@
 <template>
-  <div class="navbarDesktop">
+  <div class="navbar-desktop">
   </div>
 </template>
 
 <script>
   export default {
-    name: 'navbarDesktop'
+    name: 'navbar-desktop'
   }
 </script>
 
