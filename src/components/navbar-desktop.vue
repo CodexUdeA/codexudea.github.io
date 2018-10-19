@@ -1,14 +1,13 @@
-<template class="NavbarDesktop">
-    <h1>{{componentName}}</h1>
+<template>
+  <div class="navbarDesktop">
+  </div>
 </template>
+
 <script>
-    module.exports = {
-        data: function () {                    
-            return {
-                componentName: "navbarDesktop"
-            }
-        }
-    }
+  export default {
+    name: 'navbarDesktop'
+  }
 </script>
+
 <style>
 </style>
