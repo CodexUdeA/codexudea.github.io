@@ -5,7 +5,7 @@
 <script>
   export default {
     name: 'team-card'
-  };
+  }
 </script>
 
 <style lang="scss">
