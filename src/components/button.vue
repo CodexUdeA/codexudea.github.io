@@ -1,20 +1,18 @@
 <template>
   <div class="button">
-    <button>
-      {name}
-    </button>
+    {name}
   </div> 
 </template>
 
 <script>
 export default {
-    name: "Click me!"
+    name: "button"
 };
 </script>
 
 <style lang="scss">
-  .button {
-  }
+.button {
+}
 </style>
 
 
