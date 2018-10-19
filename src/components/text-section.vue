@@ -1,6 +1,5 @@
 <template>
   <div class="text-section">
-
   </div>
 </template>
 
@@ -11,5 +10,4 @@ export default {
 </script>
 
 <style>
-
 </style>
