@@ -1,5 +1,4 @@
-{
-    "id1" :[
+[
     {
         "name": "Christian Delany",
         "bio" : "",
@@ -21,7 +20,4 @@
         "github": "https://github.com/andres-morenog",
         "twitter": ""
     }
-
-    ]
-    
-}
+]
