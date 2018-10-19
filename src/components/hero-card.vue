@@ -10,4 +10,7 @@
 </script>
 
 <style lang='scss'>
+  .hero-card {
+
+  }
 </style>

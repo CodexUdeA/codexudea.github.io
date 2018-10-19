@@ -3,12 +3,12 @@
 </template>
 
 <script>
-export default{  
-  name: 'navbar-mobile'
-}
+  export default {
+    name: 'navbar-mobile'
+  }
 </script>
 
 <style lang="scss">
-.navbar-mobile {
-}
+  .navbar-mobile {
+  }
 </style>
