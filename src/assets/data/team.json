@@ -1,0 +1,24 @@
+{
+    "team":[{
+      "name": "Martin Quintero",
+      "bio": "",
+      "picture": "",
+      "github": "https://www.github.com/martineliasq",
+      "twitter": "https://www.twitter.com/YoQuinteroO"
+    },
+    {
+      "name": "Angelica Arroyave",
+      "bio": "",
+      "picture": "",
+      "github": "https://github.com/am9805",
+      "twitter": ""
+    },
+    {
+      "name": "Manu Castrillón",
+      "bio": "Web Developer at Huge - Co-organizer of @pionerasdev",
+      "picture": "",
+      "github": "https://www.github.com/manucastrillonm",
+      "twitter": "https://www.twitter.com/manucastrillonm"
+    }]
+    
+  }
