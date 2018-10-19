@@ -4,6 +4,7 @@
       <div class="col-xs-12">
         <img src="../src/assets/images/logo.svg" alt="codex logo">
         <h1>This project will be amazing!</h1>
+        <navbarDesktop />
       </div>
     </div>
     <router-view></router-view>
@@ -19,6 +20,7 @@ export default {
 <style lang="scss">
 @import './styles/vars';
 @import './styles/functions';
+
 
 .welcome {
   height: 100vh;
