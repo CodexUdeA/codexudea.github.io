@@ -1,5 +1,4 @@
-{
-    "team":[{
+    [{
       "name": "Martin Quintero",
       "bio": "",
       "picture": "https://avatars3.githubusercontent.com/u/10585976?s=400&v=4",
@@ -20,5 +19,3 @@
       "github": "https://www.github.com/manucastrillonm",
       "twitter": "https://www.twitter.com/manucastrillonm"
     }]
-    
-  }
