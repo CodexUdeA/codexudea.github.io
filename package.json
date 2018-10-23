@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "lint:vue": "yarn eslint ./src/**/*.vue",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
@@ -37,6 +38,7 @@
     "css-loader": "^0.28.7",
     "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
@@ -44,6 +46,8 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^4.7.1",
     "file-loader": "^1.1.4",
+    "husky": "1.1.2",
+    "lint-staged": "7.3.0",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
     "standard": "^12.0.1",
