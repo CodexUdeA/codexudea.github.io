@@ -4,13 +4,13 @@
 </template>
 
 <script>
-  export default {
-    name: 'hero-card'
-  }
+export default {
+  name: 'hero-card'
+}
 </script>
 
 <style lang='scss'>
-  .hero-card {
+.hero-card {
 
-  }
+}
 </style>
