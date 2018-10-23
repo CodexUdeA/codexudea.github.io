@@ -5,7 +5,7 @@
 <script>
   export default {
     name: 'event-card'
-  };
+  }
 </script>
 
 <style lang="scss">
