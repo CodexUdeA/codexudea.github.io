@@ -52,7 +52,7 @@ export default {
   &-name {
     color: color(astronaut);
     font-size: font(font-22);
-    font-weight: 500;
+    font-weight: font-weight(medium);
     margin: 12px 0;
   }
 
