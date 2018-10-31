@@ -1,32 +1,15 @@
 <template>
   <div class="navbar-desktop">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <nav>
-      <ul>
-        <li>
-          <img src="../assets/images/logo.svg" alt="codex logo">
-        </li>
-        <li>
-          CodeX
-        </li>
-        <li>
-          Eventos
-        </li>
-        <li>
-          Heroes
-        </li>
-        <li>
-          Salón de la Fama
-        </li>
-        <li>
-          Equipo
-        </li>
-        <li>
-          Dar una Charla
-        </li>
-        <li>
-          Patrocinadores
-        </li>
+    <nav class="navbar-desktop-nav center-sm">
+      <ul class="row navbar-desktop-list col-sm-12">
+        <li class="navbar-desktop-item col-sm-2"><img src="../assets/images/logo.svg" alt="codex logo"></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">CodeX</a></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">Eventos</a></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">Heroes</a></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">Salón de la Fama</a></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">Equipo</a></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">Dar una Charla</a></li>
+        <li class="navbar-desktop-item col-sm-1"><a href="#">Patrocinadores</a></li>
       </ul>
     </nav>
   </div>
@@ -39,52 +22,36 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import '../styles/mixins';
+@import '../styles/vars';
+@import '../styles/functions';
+@include from('small'){
+.navbar-desktop{
+  &-nav {
+    width: 100%;
+    padding: 1em;
+    background-color:color('astronaut');
+    position: absolute;
 
-@media screen and (max-width: 640px){
-nav {
-  background-color: #2C3581;
-  position: absolute;
-  width: 100%;
+    ul {
+      margin: 0;
+      list-style: none;
+      justify-content:center;
+      align-items: center;
+    }
+
+    &-item {
+      position: relative;
+    }
+
+    a{
+      text-decoration: none;
+      //color: color('white');
+      color: #fff;
+      font-size: font('font-22');
+    }
+  }
 }
-nav ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
+
 }
-nav li{
-    color: #ffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    position: relative;
-}
-img{
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  margin: 0;
-}
-}
-/*@media screen and (max-width: 1024px) and (min-width: 640px){
-//Others screen
-nav {
-  background-color: #2C3581;
-  position: absolute;
-  width: 100%;
-}
-nav ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-nav li{
-    color: #ffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    padding: 5px;
-    position: relative;
-}
-}*/
 </style>
