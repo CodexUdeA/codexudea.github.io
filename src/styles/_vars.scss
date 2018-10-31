@@ -21,6 +21,15 @@ $font: (
   font-52: 52px
 );
 
+// font weight
+$font-weight: (
+  light: 300,
+  normal: 400,
+  medium: 500,
+  bold: 700,
+  black: 900
+);
+
 // breakpoints
 $breakpoints: (
   extra-small: 560px,
