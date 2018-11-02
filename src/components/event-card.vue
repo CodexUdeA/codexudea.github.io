@@ -1,15 +1,21 @@
 <template>
   <div class="event-card">
-    <h2 class="event-card__title">Non tempor officia consequat ut consectetur.</h2>
-    <span class="event-card__detail">The date</span>
-    <span class="event-card__detail">The hour</span>
-    <span class="event-card__detail">The place</span>
+    <h1 class="event-card__title">{{title}}</h1>
+    <span class="event-card__detail">{{date}}</span>
+    <span class="event-card__detail">{{hour}}</span>
+    <span class="event-card__detail">{{place}}</span>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'event-card'
+  name: 'event-card',
+  props: {
+    title: String,
+    date: String,
+    hour: String,
+    place: String
+  }
 }
 </script>
 
@@ -24,6 +30,7 @@ export default {
     color: color(white);
     background: linear-gradient(rgba(map-get($colors, astronaut), 0.7), rgba(map-get($colors, astronaut), 0.7)), url('http://placekitten.com/200/200');
     &__title {
+      font-size: font(font-24);
       padding: 237px 62px 0 32px;
       font-weight: bold;
     }
