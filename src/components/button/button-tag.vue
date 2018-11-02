@@ -1,11 +1,7 @@
 <template>
-  <a
-    class="button"
-    v-bind:target="target"
-    v-bind:href="url"
-  >
+  <button class="button">
     <span class="button-label">{{label}}</span>
-  </a>
+  </button>
 </template>
 
 <script>
@@ -15,14 +11,6 @@ export default {
     label: {
       type: String,
       default: 'Label'
-    },
-    url: {
-      type: String,
-      default: '#'
-    },
-    target: {
-      type: String,
-      default: '_self'
     }
   }
 }
