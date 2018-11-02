@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Navbar from '../components/navbar-desktop'
+
 export default {
   name: 'home-page'
 }
