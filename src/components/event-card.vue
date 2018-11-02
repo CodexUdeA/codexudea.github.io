@@ -1,11 +1,9 @@
 <template>
   <div class="event-card">
-    <div class="event-card__information">
-      <h2>Non tempor officia consequat ut consectetur.</h2>
-      <span>The date</span>
-      <span>The hour</span>
-      <span>The place</span>
-    </div>
+    <h2 class="event-card__title">Non tempor officia consequat ut consectetur.</h2>
+    <span class="event-card__detail">The date</span>
+    <span class="event-card__detail">The hour</span>
+    <span class="event-card__detail">The place</span>
   </div>
 </template>
 
@@ -18,22 +16,21 @@ export default {
 <style lang="scss">
   @import '../styles/vars';
   @import '../styles/functions';
+
   .event-card {
-    max-width: 300px;
-    height: 400px;
-    border-radius: 5px;
+    max-width: 378px;
+    height: 469px;
+    border-radius: 10px;
     color: color(white);
-    background: linear-gradient(rgba(44, 53, 129, 0.7), rgba(44, 53, 129, 0.7)), url('http://placekitten.com/200/200');
-    &__information {
-      height: inherit;
-      padding: 50% 15px 15px 15px;
-      h2 {
-        font-weight: bold;
-      }
-      span {
-        display: block;
-        padding-top: 10px;
-      }
+    background: linear-gradient(rgba(map-get($colors, astronaut), 0.7), rgba(map-get($colors, astronaut), 0.7)), url('http://placekitten.com/200/200');
+    &__title {
+      padding: 237px 62px 0 32px;
+      font-weight: bold;
+    }
+    &__detail {
+      padding: 0 62px 0 32px;
+      display: block;
+      padding-top: 10px;
     }
   }
 </style>
