@@ -1,9 +1,11 @@
 <template>
-  <div class="event-card">
-    <h1 class="event-card__title">{{title}}</h1>
-    <span class="event-card__detail">{{date}}</span>
-    <span class="event-card__detail">{{hour}}</span>
-    <span class="event-card__detail">{{place}}</span>
+  <div class="event-card" v-bind:style="{ backgroundImage: 'url(' + imageUrl + ')'}">
+    <div class="event-card__content">
+      <h1 class="event-card__content__title">{{title}}</h1>
+      <span class="event-card__content__detail">{{date}}</span>
+      <span class="event-card__content__detail">{{hour}}</span>
+      <span class="event-card__content__detail">{{place}}</span>
+    </div>
   </div>
 </template>
 
@@ -11,10 +13,31 @@
 export default {
   name: 'event-card',
   props: {
-    title: String,
-    date: String,
-    hour: String,
-    place: String
+    imageUrl: {
+      type: String,
+      required: true,
+      default: ''
+    },
+    title: {
+      type: String,
+      required: true,
+      default: ''
+    },
+    date: {
+      type: String,
+      required: true,
+      default: ''
+    },
+    hour: {
+      type: String,
+      required: true,
+      default: ''
+    },
+    place: {
+      type: String,
+      required: true,
+      default: ''
+    }
   }
 }
 </script>
@@ -28,16 +51,23 @@ export default {
     height: 469px;
     border-radius: 10px;
     color: color(white);
-    background: linear-gradient(rgba(map-get($colors, astronaut), 0.7), rgba(map-get($colors, astronaut), 0.7)), url('http://placekitten.com/200/200');
-    &__title {
-      font-size: font(font-24);
-      padding: 237px 62px 0 32px;
-      font-weight: bold;
-    }
-    &__detail {
-      padding: 0 62px 0 32px;
-      display: block;
-      padding-top: 10px;
+    &__content {
+      width: 100%;
+      height:100%;
+      border-radius: 10px;
+      background-color: rgba(color(astronaut), 0.5);
+      &__title {
+        font-size: font(font-24);
+        padding: 237px 62px 0 32px;
+        font-weight: bold;
+        z-index: 1;
+      }
+      &__detail {
+        padding: 0 62px 0 32px;
+        display: block;
+        padding-top: 10px;
+        z-index: 1;
+      }
     }
   }
 </style>
