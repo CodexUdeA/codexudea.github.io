@@ -60,13 +60,11 @@ export default {
         font-size: font(font-24);
         padding: 237px 62px 0 32px;
         font-weight: bold;
-        z-index: 1;
       }
       &__detail {
         padding: 0 62px 0 32px;
         display: block;
         padding-top: 10px;
-        z-index: 1;
       }
     }
   }
