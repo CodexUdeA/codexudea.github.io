@@ -2,14 +2,14 @@
   <div class="navbar-desktop">
     <nav class="navbar-desktop-nav">
       <div class="row navbar-desktop-nav-list center-sm">
-        <li class="navbar-desktop-nav-item col-sm-2 middle-xs"><img src="../assets/images/logo.svg" alt="codex logo"></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">CodeX</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">Eventos</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">Heroes</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">Salón de la Fama</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">Equipo</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">Dar una Charla</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-xs"><a href="#">Patrocinadores</a></li>
+        <li class="navbar-desktop-nav-item col-sm-2 middle-sm"><img src="../assets/images/logo.svg" alt="codex logo"></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">CodeX</a></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Eventos</a></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Heroes</a></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Salón de la Fama</a></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Equipo</a></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Dar una Charla</a></li>
+        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Patrocinadores</a></li>
       </div>
     </nav>
   </div>
@@ -52,8 +52,7 @@ export default {
 
     a{
       text-decoration: none;
-      //color: color('white');
-      color: #fff;
+      color: color(white);
       font-size: font('font-22');
     }
   }
