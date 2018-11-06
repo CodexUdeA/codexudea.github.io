@@ -1,14 +1,18 @@
 <template>
-  <div class="home-page">
-    <h1>Home page</h1>
-  </div>
+  <div class="button">
+  </div> 
 </template>
 
 <script>
 export default {
-  name: 'home-page'
+  name: "button"
 }
 </script>
 
 <style lang="scss">
+.button {
+}
 </style>
+
+
+
