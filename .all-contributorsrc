@@ -47,7 +47,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/6959849?v=4",
       "profile": "http://camilo.io",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -57,7 +58,17 @@
       "profile": "https://www.linkedin.com/in/simonhoyos/",
       "contributions": [
         "ideas",
-        "talk"
+        "talk",
+        "code"
+      ]
+    },
+    {
+      "login": "andrespinov",
+      "name": "Andrés Pino Vallejo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23267995?v=4",
+      "profile": "https://github.com/andrespinov",
+      "contributions": [
+        "code"
       ]
     }
   ]
