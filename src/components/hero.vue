@@ -23,22 +23,27 @@ import button from './button/'
 
 export default {
   name: 'hero',
-  data: function () {
-    return {
-      image: '../src/assets/images/hero/bg-hero.jpg',
-      headline: 'We are',
-      subHeadline: 'Lorem CodeX is simply dummy',
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-      cta: {
-        label: 'Dar una charla',
-        url: '#dar-charla',
-        target: '_self',
-        type: 'anchor'
-      }
-    }
-  },
   components: {
     'Button': button
+  },
+  props: {
+    image: {
+      type: String,
+      required: true
+    },
+    headline: {
+      type: String,
+      required: true
+    },
+    subHeadline: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    cta: Object
   }
 }
 </script>
