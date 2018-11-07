@@ -26,10 +26,8 @@ export default {
 @import '../styles/vars';
 @import '../styles/functions';
 
-@media screen and(max-width: 767px){
-  .navbar-desktop{
+.navbar-desktop{
     display: none;
-  }
 }
 
 @include from('small'){
@@ -38,7 +36,7 @@ export default {
     width: 100%;
     padding: 20px;
     background-color: color('astronaut');
-
+    position: absolute;
     &-list {
       margin: 0;
       list-style: none;
