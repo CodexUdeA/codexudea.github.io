@@ -27,34 +27,36 @@ export default {
 @import '../styles/functions';
 
 .navbar-desktop{
-    display: none;
+  display: none;
 }
 
 @include from('small'){
-.navbar-desktop{
-  &-nav {
-    width: 100%;
-    padding: 20px;
-    background-color: color('astronaut');
-    position: absolute;
-    &-list {
-      margin: 0;
-      list-style: none;
-      align-items: center;
-      padding: 0 0 0 0;
-    }
+  .navbar-desktop{
+    display: block;
 
-    &-item {
-      position: relative;
-    }
+    &-nav {
+      width: 100%;
+      padding: 20px;
+      background-color: color('astronaut');
+      position: absolute;
 
-    a{
-      text-decoration: none;
-      color: color(white);
-      font-size: font('font-22');
+      &-list {
+        margin: 0;
+        list-style: none;
+        align-items: center;
+        padding: 0 0 0 0;
+      }
+
+      &-item {
+        position: relative;
+      }
+
+      a{
+        text-decoration: none;
+        color: color(white);
+        font-size: font('font-22');
+      }
     }
   }
-}
-
 }
 </style>

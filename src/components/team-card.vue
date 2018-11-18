@@ -48,7 +48,7 @@ export default {
   background-color: color(white);
   border-radius: 10px;
   height: 341px;
-  max-width: 235px;
+  width: 235px;
   padding: 33px 19px;
   text-align: center;
 
