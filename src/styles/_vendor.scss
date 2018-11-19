@@ -16,6 +16,7 @@ body {
 
 h1, h2 {
   font-weight: normal;
+  margin: 0;
 }
 
 ul {
@@ -49,4 +50,8 @@ img {
     width: 90px;
     border-bottom: 1px solid #8d93c3;
   }
+}
+.container {
+  max-width: 1024px;
+  padding: 15px;
 }
