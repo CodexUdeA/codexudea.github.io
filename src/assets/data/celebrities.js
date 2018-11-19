@@ -1,7 +1,7 @@
 module.exports = {
   raven920: {
     name: 'Christian Delany',
-    bio: '',
+    bio: 'Software Magician',
     picture: 'https://avatars3.githubusercontent.com/u/1153257?s=400&v=4',
     github: 'https://www.github.com/raven920',
     twitter: ''

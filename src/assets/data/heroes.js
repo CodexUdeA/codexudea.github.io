@@ -106,7 +106,7 @@ module.exports = {
   },
   romelperez07: {
     name: 'Romel Pérez',
-    bio: 'Software engineering autodidact. Enthusiast, JavaScript dev, Sci-Fi and nature fan. Making the world a better place through lines of code.',
+    bio: 'Software engineering autodidact. Enthusiast, JavaScript dev, Sci-Fi and nature fan.',
     picture: 'https://avatars3.githubusercontent.com/u/1393135?s=400&v=4',
     github: 'https://github.com/romelperez',
     twitter: 'https://twitter.com/romelperez07'
@@ -124,5 +124,26 @@ module.exports = {
     picture: 'https://avatars3.githubusercontent.com/u/23706543?s=400&v=4',
     github: 'https://www.github.com/shmesa22',
     twitter: 'https://www.twitter.com/shmesa22'
+  },
+  josemariogutierrez: {
+    name: 'Jose Mario Gutierrez',
+    bio: 'Web Engineer en Huge',
+    picture: 'https://avatars1.githubusercontent.com/u/27037672?s=460&v=4',
+    github: 'https://github.com/josemariogutierrez',
+    twitter: 'https://twitter.com/Josemarioguti'
+  },
+  PilarArroyave: {
+    name: 'Pilar Arroyave',
+    bio: 'Soy una persona en constante proceso de formación que se dedica a ser feliz.',
+    picture: 'https://avatars1.githubusercontent.com/u/30705652?s=460&v=4',
+    github: 'https://github.com/PilarArroyave',
+    twitter: 'https://www.twitter.com/PiliArroyave'
+  },
+  williamegomez: {
+    name: 'William Gomez',
+    bio: 'Ingeniero Electrónico de la Universidad de Antioquia. Desarrollador web de HUGE S.A.S.',
+    picture: 'https://avatars1.githubusercontent.com/u/33497419?s=460&v=4',
+    github: 'https://github.com/williamegomez',
+    twitter: 'https://twitter.com/williamgomex'
   }
 }
