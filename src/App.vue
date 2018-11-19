@@ -6,13 +6,19 @@
         <h1>This project will be amazing!</h1>
       </div>
     </div>
+    <card />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import card from '../src/components/hero-card'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    card
+  }
 }
 </script>
 
