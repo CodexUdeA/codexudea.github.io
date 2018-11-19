@@ -16,6 +16,7 @@ body {
 
 h1, h2 {
   font-weight: normal;
+  margin: 0;
 }
 
 ul {
@@ -34,4 +35,9 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 15px;
 }
