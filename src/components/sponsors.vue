@@ -46,16 +46,14 @@ export default {
 .sponsors {
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto';
   justify-content: space-around;
   padding: 30px;
-  border-top: 4px solid color(astronaut);
-  border-bottom: 4px solid color(astronaut);
-  font-family: 'Roboto';
 
   &__title {
+    color: color(astronaut);
     display: flex;
     justify-content: center;
-    color: color(astronaut);
 
     h1 {
       font-weight: bold;

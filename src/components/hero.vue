@@ -54,12 +54,13 @@ export default {
 @import '../styles/functions';
 
 .hero {
-  display: flex;
   align-items: center;
-  justify-content: center;
   background-color: #000022;
   color: color(white);
+  display: flex;
   height: 100vh;
+  justify-content: center;
+  position: relative;
 
   &,
   &__image {
@@ -76,15 +77,15 @@ export default {
 
     &::after {
       content: '';
-      display: block;
-      position: absolute;
-      width: 120vw;
-      height: 120vw;
-      border-radius: 100%;
       background-color: rgba(#0D155E, 0.37);
+      border-radius: 100%;
+      display: block;
+      height: 120vw;
       left: 50%;
+      position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
+      width: 120vw;
 
       @include from(small) {
         width: 120vh;
@@ -106,18 +107,18 @@ export default {
   }
 
   &__body {
-    flex-basis: 100%;
-    padding: 0 15px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    padding: 0 15px;
     position: relative;
+    text-align: center;
     z-index: 0;
 
     @include from(medium) {
-      padding: 0;
       flex-basis: 70%;
+      padding: 0;
     }
   }
 
@@ -145,10 +146,10 @@ export default {
 
   &__description {
     font-size: 20px;
-    line-height: 1.4;
-    max-width: 780px;
     font-weight: font-weight(light);
+    line-height: 1.4;
     margin: 20px 0 30px;
+    max-width: 780px;
 
     @include from(small) {
       font-size: 26px;

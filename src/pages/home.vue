@@ -8,6 +8,7 @@
       sub-headline="Lorem sint ullamco nisi irure ut ut magna et ex nulla."
       description="Aliqua commodo quis elit laborum. Proident eu laboris culpa est nostrud mollit. Cupidatat excepteur exercitation pariatur pariatur magna commodo dolore nostrud in. Exercitation consequat eiusmod cupidatat irure mollit ut sint cupidatat sit cupidatat."
     />
+    <next-events />
     <hall-of-fame />
     <organizing-team />
     <sponsors />
@@ -18,6 +19,7 @@
 import HallOfFame from '../components/hall-of-fame'
 import Hero from '../components/hero'
 import NavbarDesktop from '../components/navbar-desktop'
+import NextEvents from '../components/next-events'
 import OrganizingTeam from '../components/organizing-team'
 import Sponsors from '../components/sponsors'
 
@@ -27,6 +29,7 @@ export default {
     HallOfFame,
     Hero,
     NavbarDesktop,
+    NextEvents,
     OrganizingTeam,
     Sponsors
   },

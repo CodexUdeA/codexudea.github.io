@@ -1,15 +1,28 @@
 <template>
   <div class="navbar-desktop">
     <nav class="navbar-desktop-nav">
-      <div class="row navbar-desktop-nav-list center-sm">
-        <li class="navbar-desktop-nav-item col-sm-2 middle-sm"><img src="../assets/images/logo.svg" alt="codex logo"></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">CodeX</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Eventos</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Heroes</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Salón de la Fama</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Equipo</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Dar una Charla</a></li>
-        <li class="navbar-desktop-nav-item col-sm-1 middle-sm"><a href="#">Patrocinadores</a></li>
+      <div class="navbar-desktop-nav-list">
+        <li class="navbar-desktop-nav-brand">
+          <img src="../assets/images/logo.svg" alt="codex logo">
+        </li>
+        <li class="navbar-desktop-nav-item">
+          <a href="#">Eventos</a>
+        </li>
+        <li class="navbar-desktop-nav-item">
+          <a href="#">Heroes</a>
+        </li>
+        <li class="navbar-desktop-nav-item">
+          <a href="#">Salón de la Fama</a>
+        </li>
+        <li class="navbar-desktop-nav-item">
+          <a href="#">Equipo</a>
+        </li>
+        <li class="navbar-desktop-nav-item">
+          <a href="#">Dar una charla</a>
+        </li>
+        <li class="navbar-desktop-nav-item">
+          <a href="#">Patrocinadores</a>
+        </li>
       </div>
     </nav>
   </div>
@@ -38,23 +51,26 @@ export default {
       width: 100%;
       padding: 20px;
       background-color: color('astronaut');
-      position: absolute;
 
       &-list {
-        margin: 0;
-        list-style: none;
+        display: flex;
         align-items: center;
-        padding: 0 0 0 0;
+        justify-content: center;
+      }
+
+      &-brand {
+        margin-right: 50px;
+        max-width: 100px;
       }
 
       &-item {
-        position: relative;
+        padding: 10px;
       }
 
-      a{
+      a {
         text-decoration: none;
         color: color(white);
-        font-size: font('font-22');
+        font-size: font('font-16');
       }
     }
   }
