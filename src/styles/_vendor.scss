@@ -35,3 +35,18 @@ a {
 img {
   max-width: 100%;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  h1 {
+    font-weight: bold;
+  }
+   h1:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 90px;
+    border-bottom: 1px solid #8d93c3;
+  }
+}
