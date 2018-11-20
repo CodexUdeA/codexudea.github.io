@@ -1,6 +1,6 @@
 <template>
   <div class="sponsors">
-    <div class="sponsors__title">
+    <div class="sponsors__title title">
       <h1>Patrocinadores</h1>
     </div>
     <div class="sponsors__message">
@@ -54,18 +54,6 @@ export default {
     color: color(astronaut);
     display: flex;
     justify-content: center;
-
-    h1 {
-      font-weight: bold;
-    }
-
-    h1:after {
-      content: ' ';
-      position: absolute;
-      display: block;
-      width: 90px;
-      border-bottom: 1px solid #8d93c3;
-    }
   }
 
   &__message {

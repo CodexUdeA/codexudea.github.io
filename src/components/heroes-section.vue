@@ -1,6 +1,8 @@
 <template>
   <section class="heroes-section">
-    <h1 class="heroes-section__title">Heroes</h1>
+    <div class="title">
+      <h1 class="heroes-section__title">Heroes</h1>
+    </div>
     <div class="container">
       <div class="row center-xs start-md">
         <hero-card

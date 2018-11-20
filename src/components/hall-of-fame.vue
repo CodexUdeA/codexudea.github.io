@@ -1,6 +1,8 @@
 <template>
   <section class="hall-of-fame">
-    <h1 class="hall-of-fame__title">Salón de la fama</h1>
+    <div class="title">
+      <h1 class="hall-of-fame__title">Salón de la fama</h1>
+    </div>
     <div class="container">
       <div class="row around-xs">
         <team-card

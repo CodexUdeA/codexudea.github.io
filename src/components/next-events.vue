@@ -1,6 +1,8 @@
 <template>
   <section class="next-events">
-    <h1 class="next-events__title">Próximos eventos</h1>
+    <div class="title">
+      <h1 class="next-events__title">Próximos eventos</h1>
+    </div>
     <div class="container">
       <div class="row around-xs">
         <event-card

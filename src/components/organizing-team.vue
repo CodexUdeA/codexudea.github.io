@@ -1,6 +1,8 @@
 <template>
   <section class="organizing-team">
-    <h1 class="organizing-team__title">Equipo organizador</h1>
+    <div class="title">
+      <h1 class="organizing-team__title">Equipo organizador</h1>
+    </div>
     <div class="container">
       <div class="row around-xs">
         <team-card

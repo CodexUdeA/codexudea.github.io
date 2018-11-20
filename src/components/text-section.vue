@@ -61,16 +61,19 @@ export default {
   .text-section {
     background: color(astronaut);
     color: color(white);
+
     &__title {
       margin-top: 100px;
       &--active {
         color: color(sunflower);
       }
     }
+
     &__description {
       margin-top: 80px;
       font-size: font(font-16);
     }
+
     &__button {
       margin: 100px 0;
     }

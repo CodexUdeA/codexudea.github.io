@@ -40,10 +40,12 @@ img {
 .title {
   display: flex;
   justify-content: center;
+
   h1 {
     font-weight: bold;
   }
-   h1:after {
+
+  h1:after {
     content: ' ';
     position: absolute;
     display: block;
@@ -51,6 +53,7 @@ img {
     border-bottom: 1px solid #8d93c3;
   }
 }
+
 .container {
   max-width: 1024px;
   padding: 15px;
