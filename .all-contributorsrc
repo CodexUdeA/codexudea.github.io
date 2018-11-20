@@ -68,7 +68,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/23267995?v=4",
       "profile": "https://github.com/andrespinov",
       "contributions": [
-        "code"
+        "code",
+        "talk"
       ]
     },
     {
@@ -184,6 +185,25 @@
       "name": "Juan Pablo Tobón Flórez",
       "avatar_url": "https://avatars2.githubusercontent.com/u/17577509?v=4",
       "profile": "https://github.com/tobon96",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "camigomez35",
+      "name": "Maria Camila Gomez Restrepo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16061815?v=4",
+      "profile": "http://www.camigomez.me/",
+      "contributions": [
+        "code",
+        "talk"
+      ]
+    },
+    {
+      "login": "gio96",
+      "name": "gio96",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22892513?v=4",
+      "profile": "https://github.com/gio96",
       "contributions": [
         "code"
       ]
