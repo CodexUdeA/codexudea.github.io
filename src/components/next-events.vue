@@ -50,7 +50,7 @@ export default {
 
   &__title {
     color: color(astronaut);
-    font-size: font(42);
+    font-size: font(font-42);
     font-weight: (bold);
     margin: 0;
     margin-bottom: 115px;
