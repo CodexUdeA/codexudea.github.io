@@ -4,32 +4,26 @@ about: Create a report to help us improve
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Descripción
+Descripción clara y concisa de lo que es bug.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Pasos para reproducirlo
+Pasos para reproducir el bug:
+1. Ir a '...'
+2. Hacer click en '....'
+3. Hacer scroll a '....'
+4. Ver error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Comportamiento esperado
+Descripción de lo que se espera que suceda.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Screenshots
+Si aplica, agrega un screenshot que muestre el problema
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
+## Dispositivos
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+## Información adicional
