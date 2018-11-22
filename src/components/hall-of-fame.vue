@@ -2,6 +2,7 @@
   <section class="hall-of-fame">
     <div class="title">
       <h1 class="hall-of-fame__title">Salón de la fama</h1>
+      <h2 class="hall-of-fame__subtitle subtitle">Personas que nos han ayudado a construir este sueño</h2>
     </div>
     <div class="container">
       <div class="row around-xs">
@@ -42,11 +43,6 @@ export default {
 
   &__title {
     color: color(astronaut);
-    font-size: font(font-42);
-    font-weight: (bold);
-    margin: 0;
-    margin-bottom: 115px;
-    text-align: center;
   }
 }
 </style>
