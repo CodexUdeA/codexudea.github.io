@@ -39,40 +39,37 @@ export default {
 @import '../styles/vars';
 @import '../styles/functions';
 
-.navbar-desktop{
+.navbar-desktop-nav {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: color('astronaut');
+
+  a {
+    text-decoration: none;
+    color: color(white);
+    font-size: font('font-16');
+  }
+}
+
+.navbar-desktop-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-desktop-nav-brand {
+  margin-right: 50px;
+  max-width: 100px;
+}
+
+.navbar-desktop-nav-item {
   display: none;
 }
 
-@include from('small'){
-  .navbar-desktop{
+@include from('small') {
+  .navbar-desktop-nav-item {
     display: block;
-
-    &-nav {
-      width: 100%;
-      padding: 20px;
-      background-color: color('astronaut');
-
-      &-list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      &-brand {
-        margin-right: 50px;
-        max-width: 100px;
-      }
-
-      &-item {
-        padding: 10px;
-      }
-
-      a {
-        text-decoration: none;
-        color: color(white);
-        font-size: font('font-16');
-      }
-    }
+    padding: 10px;
   }
 }
 </style>
