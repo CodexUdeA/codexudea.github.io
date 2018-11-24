@@ -1,5 +1,5 @@
 <template>
-  <section class="heroes-section">
+  <section id="heroes" class="heroes-section">
     <div class="title">
       <h1 class="heroes-section__title">Heroes</h1>
       <h2 class="subtitle heroes-section__subtitle">Personas que nos han compartido conocimiento</h2>

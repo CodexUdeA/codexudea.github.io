@@ -10,22 +10,22 @@
     </ul>
     <ul class="navbar-desktop_list">
       <li class="navbar-desktop-item">
-        <a href="#">Eventos</a>
+        <a href="#events">Eventos</a>
       </li>
       <li class="navbar-desktop-item">
-        <a href="#">Heroes</a>
+        <a href="#heroes">Heroes</a>
       </li>
       <li class="navbar-desktop-item">
-        <a href="#">Salón de la Fama</a>
+        <a href="#hall-of-fame">Salón de la Fama</a>
       </li>
       <li class="navbar-desktop-item">
-        <a href="#">Equipo</a>
+        <a href="#team">Equipo</a>
       </li>
       <li class="navbar-desktop-item">
-        <a href="#">Dar una charla</a>
+        <a href="#speaker">Dar una charla</a>
       </li>
       <li class="navbar-desktop-item">
-        <a href="#">Patrocinadores</a>
+        <a href="#sponsors">Patrocinadores</a>
       </li>
     </ul>
   </nav>
