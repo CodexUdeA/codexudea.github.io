@@ -1,34 +1,34 @@
 <template>
-  <div class="navbar-desktop">
-    <nav class="navbar-desktop-nav">
-      <div class="navbar-desktop-nav-list">
-        <li type="button" class="menu-button" @click="toggleNav()">
-          <i class="fa fa-bars" aria-hidden="true"/>
-        </li>
-        <li class="navbar-desktop-nav-brand">
-          <img src="../assets/images/logo.svg" alt="codex logo">
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Eventos</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Heroes</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Salón de la Fama</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Equipo</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Dar una charla</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Patrocinadores</a>
-        </li>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar-desktop">
+    <ul class="navbar-desktop_list">
+      <li class="menu-button">
+        <i class="fa fa-bars" aria-hidden="true"/>
+      </li>
+      <li class="navbar-desktop-brand">
+        <img src="../assets/images/logo.svg" alt="codex logo">
+      </li>
+    </ul>
+    <ul class="navbar-desktop_list">
+      <li class="navbar-desktop-item">
+        <a href="#">Eventos</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#">Heroes</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#">Salón de la Fama</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#">Equipo</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#">Dar una charla</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#">Patrocinadores</a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -42,9 +42,11 @@ export default {
 @import '../styles/vars';
 @import '../styles/functions';
 
-.navbar-desktop-nav {
-  width: 100%;
-  // padding: 20px 10px;
+.navbar-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 8px 0;
   background-color: color('astronaut');
 
   a {
@@ -54,9 +56,9 @@ export default {
   }
 }
 
-.navbar-desktop-nav-list {
+.navbar-desktop_list {
   display: flex;
-  align-items: center;
+  margin: 0;
   padding: 0 16px;
 
   .menu-button {
@@ -67,23 +69,27 @@ export default {
   }
 }
 
-.navbar-desktop-nav-brand {
-  margin-right: 50px;
-  max-width: 100px;
+.navbar-desktop-brand {
+  width: 100px;
 }
 
-.navbar-desktop-nav-item {
+.navbar-desktop-item {
   display: none;
 }
 
 @include from('small') {
-  .navbar-desktop-nav-item {
+  .navbar-desktop {
+    justify-content: space-around;
+  }
+
+  .navbar-desktop-item {
     display: block;
     padding: 10px;
   }
 
-  .navbar-desktop-nav-list {
+  .navbar-desktop_list {
     justify-content: center;
+    align-items: center;
 
     .menu-button {
       display: none;
