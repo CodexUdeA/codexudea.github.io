@@ -1,19 +1,15 @@
 <template>
   <div class="footer row">
-    <div class="logo">
+    <div class="footer-logo col-xs-2">
       <img class="footer-image" src="../assets/images/logo.svg" alt="codex logo">
     </div>
-    <div class="facebook-contact">
+    <div class="footer-information col-xs-6">
       <i class="fa fa-facebook-official" aria-hidden="true" />
-      <label class= "facebook"> /codexUdeA </label>
-    </div>
-    <div class="email-contact">
+      <label class= "footer-facebook"> /codexUdeA </label>
       <i class="fa fa-at" aria-hidden="true" />
-      <label class="email"> info@codex.com </label>
-    </div>
-    <div class="message">
-        <label class="message-txt"> Made with </label>
-        <i class="fa fa-heart" aria-hidden="true" />
+      <label class="footer-email"> info@codex.com </label>
+      <label class="footer-message"> Made with </label>
+      <i class="fa fa-heart" aria-hidden="true" />
     </div>
   </div>
 </template>
@@ -32,144 +28,74 @@ export default {
   .footer {
     background-color: color(astronaut);
     color: white;
-    height: 84px;
-    width: 1800px;
-    margin: 0px;
-    padding: 0px;
+    width: 100vw;
+    padding: 10px 15vw;
     font-weight: font-weight(light);
     font-size: fonts(font-16);
+    flex-direction: row;
   }
 
-  .logo .footer-image {
-    width: 71px;
-    height: 27px;
-    margin: 28px 400px 29px 352px;
-    padding: 0px;
-    float: left;
+  .footer-logo {
+    margin: 0px 20vw 0px 0vw;
+    justify-content: center;
+    text-align: center;
   }
 
-  .facebook-contact .fa-facebook-official {
-    width: 24px;
-    height: 24px;
-    margin: 34px 10px 26px 0px;
+  .footer-logo .footer-image{
+    height: 60%;
+  }
+
+  .footer-information {
+    margin: 1%;
     padding: 0px;
+    justify-content: center;
+  }
+
+  .footer-facebook {
+    margin: 0px 7% 0px 1%;
+  }
+
+  .footer-email {
+    margin: 0px 7% 0px 1%;
+  }
+
+  .footer-message {
+    margin: 0px 1% 0px 2%;
+  }
+
+  .fa {
+    padding: 0px;
+    margin: 0px;
     font-size: 24px;
-    float: left;
   }
 
-  .facebook-contact .facebook {
-    width: 87px;
-    height: 19px;
-    margin: 37px 36px 28px 0px;
-    padding: 0px;
-    font-size: 16px;
-    float: left;
-  }
-
-  .email-contact .fa-at {
-    width: 24px;
-    height: 24px;
-    margin: 34px 6px 26px 0px;
-    padding: 0px;
-    font-size: 24px;
-    float: left;
-  }
-
-  .email-contact .email {
-    width: 119px;
-    height: 19px;
-    margin: 37px 66px 28px 0px;
-    padding: 0px;
-    font-size: 16px;
-    float: left;
-  }
-
-  .message .message-txt {
-    width: 74px;
-    height: 19px;
-    margin: 37px 9px 28px 0px;
-    padding: 0px;
-    font-size: 16px;
-    float: left;
-  }
-
-  .message .fa-heart {
+  .fa-heart {
     color: #DB5757;
-    width: 24px;
-    height: 20.73px;
-    margin: 37px 326px 26.27px 0px;
-    font-size: 24px;
-    padding: 0px;
-    float: left;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1200px){
     .footer {
-      height: 84px;
-      width: 100%;
+      font-size: 5%;
+      height: 30px;
+      padding: 8px 10vw;
     }
 
-    .logo .footer-image {
-      width: 3.94%;
-      height: 27px;
-      margin: 28px 352px;
-      padding: 0px;
-      float: left;
+    .footer-logo {
+      margin: 0px 12vw 0px 0vw;
+      justify-content: center;
+      text-align: center;
     }
 
-    .facebook-contact .fa-facebook-official {
-      width: 24px;
-      height: 24px;
-      margin: 34px 10px 26px 0px;
-      padding: 0px;
-      font-size: 24px;
-      float: left;
+    .fa {
+      font-size: 5%;
     }
 
-    .facebook-contact .facebook {
-      width: 87px;
-      height: 19px;
-      margin: 37px 36px 28px 0px;
-      padding: 0px;
-      font-size: 16px;
-      float: left;
+    .footer-facebook {
+      margin: 0px 3% 0px 1%;
     }
 
-    .email-contact .fa-at {
-      width: 24px;
-      height: 24px;
-      margin: 34px 6px 26px 0px;
-      padding: 0px;
-      font-size: 24px;
-      float: left;
-    }
-
-    .email-contact .email {
-      width: 119px;
-      height: 19px;
-      margin: 37px 66px 28px 0px;
-      padding: 0px;
-      font-size: 16px;
-      float: left;
-    }
-
-    .message .message-txt {
-      width: 75px;
-      height: 19px;
-      margin: 37px 9px 28px 0px;
-      padding: 0px;
-      font-size: 16px;
-      float: left;
-    }
-
-    .message .fa-heart {
-      color: #DB5757;
-      width: 24px;
-      height: 20.73px;
-      margin: 37px 326px 26.27px 0px;
-      font-size: 24px;
-      padding: 0px;
-      float: left;
+    .footer-email {
+      margin: 0px 3% 0px 1%;
     }
   }
 </style>
