@@ -2,6 +2,9 @@
   <div class="navbar-desktop">
     <nav class="navbar-desktop-nav">
       <div class="navbar-desktop-nav-list">
+        <li type="button" class="menu-button" @click="toggleNav()">
+          <i class="fa fa-bars" aria-hidden="true"/>
+        </li>
         <li class="navbar-desktop-nav-brand">
           <img src="../assets/images/logo.svg" alt="codex logo">
         </li>
@@ -41,7 +44,7 @@ export default {
 
 .navbar-desktop-nav {
   width: 100%;
-  padding: 20px 10px;
+  // padding: 20px 10px;
   background-color: color('astronaut');
 
   a {
@@ -54,7 +57,14 @@ export default {
 .navbar-desktop-nav-list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 0 16px;
+
+  .menu-button {
+    margin: auto 16px;
+    margin-left: 0;
+    color: color(white);
+    font-size: 24px;
+  }
 }
 
 .navbar-desktop-nav-brand {
@@ -70,6 +80,14 @@ export default {
   .navbar-desktop-nav-item {
     display: block;
     padding: 10px;
+  }
+
+  .navbar-desktop-nav-list {
+    justify-content: center;
+
+    .menu-button {
+      display: none;
+    }
   }
 }
 </style>
