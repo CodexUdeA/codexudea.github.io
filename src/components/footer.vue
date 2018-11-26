@@ -1,15 +1,23 @@
 <template>
-  <div class="footer row">
-    <div class="footer-logo col-xs-2">
+  <div class="footer row middle-xs">
+    <div class="footer-logo col-xs-3 col-md-6 center-xs">
       <img class="footer-image" src="../assets/images/logo.svg" alt="codex logo">
     </div>
-    <div class="footer-information col-xs-6">
-      <i class="fa fa-facebook-official" aria-hidden="true" />
-      <label class= "footer-facebook"> /codexUdeA </label>
-      <i class="fa fa-at" aria-hidden="true" />
-      <label class="footer-email"> info@codex.com </label>
-      <label class="footer-message"> Made with </label>
-      <i class="fa fa-heart" aria-hidden="true" />
+    <div class="footer-information col-xs-9 col-md-6">
+      <div class="row middle-xs">
+        <div class="footer-social">
+          <i class="fa fa-facebook-official" aria-hidden="true" />
+          <span class= "footer-social__text"> /codexUdeA </span>
+        </div>
+        <div class="footer-social">
+          <i class="fa fa-at" aria-hidden="true" />
+          <span class="footer-social__text"> info@codex.com </span>
+        </div>
+        <div class="footer-social">
+          <span> Made with </span>
+          <i class="fa fa-heart" aria-hidden="true" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -27,75 +35,77 @@ export default {
 
   .footer {
     background-color: color(astronaut);
-    color: white;
-    width: 100vw;
-    padding: 10px 15vw;
+    color: color(white);
+    padding: 20px;
     font-weight: font-weight(light);
-    font-size: fonts(font-16);
-    flex-direction: row;
+    font-size: font(font-16);
   }
 
-  .footer-logo {
-    margin: 0px 20vw 0px 0vw;
-    justify-content: center;
-    text-align: center;
+  .footer-social {
+    margin-right: 20px;
   }
 
-  .footer-logo .footer-image{
-    height: 60%;
-  }
-
-  .footer-information {
-    margin: 1%;
-    padding: 0px;
-    justify-content: center;
-  }
-
-  .footer-facebook {
-    margin: 0px 7% 0px 1%;
-  }
-
-  .footer-email {
-    margin: 0px 7% 0px 1%;
-  }
-
-  .footer-message {
-    margin: 0px 1% 0px 2%;
+  .footer-logo .footer-image {
+    width: 62px;
   }
 
   .fa {
-    padding: 0px;
-    margin: 0px;
-    font-size: 24px;
+    padding-right: 5px;
+    font-size: font(font-24);
   }
 
   .fa-heart {
-    color: #DB5757;
+    color: color(radical-red);
   }
 
-  @media (max-width: 1200px){
+  @media (max-width: 992px){
     .footer {
-      font-size: 5%;
-      height: 30px;
-      padding: 8px 10vw;
+      padding-left: 50px;
+      font-size: font(font-14);
     }
 
-    .footer-logo {
-      margin: 0px 12vw 0px 0vw;
-      justify-content: center;
-      text-align: center;
+    .footer-social {
+      margin-right: 15px;
     }
 
     .fa {
-      font-size: 5%;
+      padding: 5px;
+      font-size: font(font-14);
+    }
+  }
+
+  @media (max-width: 767px){
+    .footer {
+      padding-left: 50px;
+      font-size: font(font-14);
     }
 
-    .footer-facebook {
-      margin: 0px 3% 0px 1%;
+    .footer-social {
+      margin-right: 15px;
     }
 
-    .footer-email {
-      margin: 0px 3% 0px 1%;
+    .fa {
+      padding: 3px;
+      font-size: font(font-14);
+    }
+  }
+
+  @media (max-width: 560px){
+    .footer {
+      font-size: font(font-12);
+    }
+
+    .footer-logo .footer-image {
+      width: 58px;
+    }
+
+    .footer-social {
+      margin-right: 10px;
+    }
+
+    .fa {
+      padding: 2px;
+      font-size: font(font-12);
     }
   }
 </style>
