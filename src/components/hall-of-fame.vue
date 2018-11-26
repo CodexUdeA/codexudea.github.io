@@ -1,5 +1,5 @@
 <template>
-  <section class="hall-of-fame">
+  <section id="hall-of-fame" class="hall-of-fame">
     <div class="title">
       <h1 class="hall-of-fame__title">Salón de la fama</h1>
       <h2 class="hall-of-fame__subtitle subtitle">Personas que nos han ayudado a construir este sueño</h2>

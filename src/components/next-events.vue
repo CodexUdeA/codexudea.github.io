@@ -1,5 +1,5 @@
 <template>
-  <section class="next-events">
+  <section id="events" class="next-events">
     <div class="title">
       <h1 class="next-events__title">Próximos eventos</h1>
     </div>

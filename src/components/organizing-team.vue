@@ -1,5 +1,5 @@
 <template>
-  <section class="organizing-team">
+  <section id="team" class="organizing-team">
     <div class="title">
       <h1 class="organizing-team__title">Equipo organizador</h1>
     </div>

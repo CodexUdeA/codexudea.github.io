@@ -1,31 +1,34 @@
 <template>
-  <div class="navbar-desktop">
-    <nav class="navbar-desktop-nav">
-      <div class="navbar-desktop-nav-list">
-        <li class="navbar-desktop-nav-brand">
-          <img src="../assets/images/logo.svg" alt="codex logo">
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Eventos</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Heroes</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Salón de la Fama</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Equipo</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Dar una charla</a>
-        </li>
-        <li class="navbar-desktop-nav-item">
-          <a href="#">Patrocinadores</a>
-        </li>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar-desktop">
+    <ul class="navbar-desktop_list">
+      <li class="menu-button">
+        <i class="fa fa-bars" aria-hidden="true"/>
+      </li>
+      <li class="navbar-desktop-brand">
+        <img src="../assets/images/logo.svg" alt="codex logo">
+      </li>
+    </ul>
+    <ul class="navbar-desktop_list">
+      <li class="navbar-desktop-item">
+        <a href="#events">Eventos</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#heroes">Heroes</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#hall-of-fame">Salón de la Fama</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#team">Equipo</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#speaker">Dar una charla</a>
+      </li>
+      <li class="navbar-desktop-item">
+        <a href="#sponsors">Patrocinadores</a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -39,39 +42,57 @@ export default {
 @import '../styles/vars';
 @import '../styles/functions';
 
-.navbar-desktop{
+.navbar-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 8px 0;
+  background-color: color('astronaut');
+
+  a {
+    text-decoration: none;
+    color: color(white);
+    font-size: font('font-16');
+  }
+}
+
+.navbar-desktop_list {
+  display: flex;
+  margin: 0;
+  padding: 0 16px;
+
+  .menu-button {
+    margin: auto 16px;
+    margin-left: 0;
+    color: color(white);
+    font-size: 24px;
+  }
+}
+
+.navbar-desktop-brand {
+  width: 100px;
+}
+
+.navbar-desktop-item {
   display: none;
 }
 
-@include from('small'){
-  .navbar-desktop{
+@include from('small') {
+  .navbar-desktop {
+    justify-content: space-around;
+  }
+
+  .navbar-desktop-item {
     display: block;
+    padding: 10px;
+  }
 
-    &-nav {
-      width: 100%;
-      padding: 20px;
-      background-color: color('astronaut');
+  .navbar-desktop_list {
+    justify-content: center;
+    align-items: center;
 
-      &-list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      &-brand {
-        margin-right: 50px;
-        max-width: 100px;
-      }
-
-      &-item {
-        padding: 10px;
-      }
-
-      a {
-        text-decoration: none;
-        color: color(white);
-        font-size: font('font-16');
-      }
+    .menu-button {
+      display: none;
     }
   }
 }
