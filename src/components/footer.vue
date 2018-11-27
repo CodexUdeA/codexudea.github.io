@@ -1,9 +1,9 @@
 <template>
   <div class="footer row middle-xs">
-    <div class="footer-logo col-xs-3 col-md-6 center-xs">
+    <div class="footer-logo col-xs-3 col-sm-4 col-md-5 col-lg-6 center-xs">
       <img class="footer-image" src="../assets/images/logo.svg" alt="codex logo">
     </div>
-    <div class="footer-information col-xs-9 col-md-6">
+    <div class="footer-information col-xs-9 col-sm-8 col-md-7 col-lg-6">
       <div class="row middle-xs">
         <div class="footer-social">
           <i class="fa fa-facebook-official" aria-hidden="true" />
@@ -58,54 +58,13 @@ export default {
     color: color(radical-red);
   }
 
-  @media (max-width: 992px){
-    .footer {
-      padding-left: 50px;
-      font-size: font(font-14);
-    }
-
-    .footer-social {
-      margin-right: 15px;
-    }
-
-    .fa {
-      padding: 5px;
-      font-size: font(font-14);
-    }
-  }
-
-  @media (max-width: 767px){
-    .footer {
-      padding-left: 50px;
-      font-size: font(font-14);
-    }
-
-    .footer-social {
-      margin-right: 15px;
-    }
-
-    .fa {
-      padding: 3px;
-      font-size: font(font-14);
-    }
-  }
-
   @media (max-width: 560px){
     .footer {
-      font-size: font(font-12);
-    }
-
-    .footer-logo .footer-image {
-      width: 58px;
-    }
-
-    .footer-social {
-      margin-right: 10px;
+      font-size: 10px;
     }
 
     .fa {
-      padding: 2px;
-      font-size: font(font-12);
+      font-size: 10px;
     }
   }
 </style>
