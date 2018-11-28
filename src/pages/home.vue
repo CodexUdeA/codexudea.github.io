@@ -25,10 +25,12 @@
       button-url="https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform"
     />
     <sponsors />
+    <bottom />
   </div>
 </template>
 
 <script>
+import Bottom from '../components/footer'
 import HallOfFame from '../components/hall-of-fame'
 import Hero from '../components/hero'
 import HeroesSection from '../components/heroes-section'
@@ -41,6 +43,7 @@ import TextSection from '../components/text-section'
 export default {
   name: 'home-page',
   components: {
+    Bottom,
     HallOfFame,
     Hero,
     HeroesSection,
