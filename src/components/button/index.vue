@@ -12,7 +12,7 @@ import buttonTag from './button-tag'
 import buttonLink from './button-link'
 
 export default {
-  name: 'button',
+  name: 'cta',
   data: function () {
     return {
       component: this.type === 'button'
