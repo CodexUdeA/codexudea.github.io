@@ -1,5 +1,5 @@
 <template>
-  <section class="next-events">
+  <section id="events" class="next-events">
     <div class="title">
       <h1 class="next-events__title">Próximos eventos</h1>
     </div>
@@ -50,11 +50,6 @@ export default {
 
   &__title {
     color: color(astronaut);
-    font-size: font(font-42);
-    font-weight: (bold);
-    margin: 0;
-    margin-bottom: 115px;
-    text-align: center;
   }
 }
 </style>

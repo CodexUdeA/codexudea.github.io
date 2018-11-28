@@ -1,7 +1,8 @@
 <template>
-  <section class="heroes-section">
+  <section id="heroes" class="heroes-section">
     <div class="title">
       <h1 class="heroes-section__title">Heroes</h1>
+      <h2 class="subtitle heroes-section__subtitle">Personas que nos han compartido conocimiento</h2>
     </div>
     <div class="container">
       <div class="row center-xs start-md">
@@ -42,11 +43,6 @@ export default {
 
   &__title {
     color: color(white);
-    font-size: font(font-42);
-    font-weight: (bold);
-    margin: 0;
-    margin-bottom: 115px;
-    text-align: center;
   }
 }
 </style>

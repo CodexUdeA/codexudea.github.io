@@ -1,5 +1,5 @@
 <template>
-  <section class="organizing-team">
+  <section id="team" class="organizing-team">
     <div class="title">
       <h1 class="organizing-team__title">Equipo organizador</h1>
     </div>
@@ -43,11 +43,6 @@ export default {
 
   &__title {
     color: color(astronaut);
-    font-size: font(font-42);
-    font-weight: (bold);
-    margin: 0;
-    margin-bottom: 115px;
-    text-align: center;
   }
 }
 </style>

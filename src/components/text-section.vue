@@ -70,7 +70,6 @@ export default {
     }
 
     &__description {
-      margin-top: 80px;
       font-size: font(font-16);
     }
 
