@@ -55,13 +55,6 @@ module.exports = {
     github: 'https://github.com/gomezjuliana',
     twitter: 'https://twitter.com/gmzjuliana'
   },
-  JeanHerrera4: {
-    name: 'Jean Herrera',
-    bio: '',
-    picture: 'https://avatars0.githubusercontent.com/u/22826034?s=400&v=4',
-    github: 'https://github.com/JeanHerrera4',
-    twitter: ''
-  },
   santiagocb: {
     name: 'Santiago Cadavid',
     bio: 'Software Developer at S4N',

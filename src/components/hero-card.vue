@@ -69,6 +69,7 @@ export default {
   }
 
   &__bio {
+    color: color(white);
     font-size: font(font-12);
   }
 

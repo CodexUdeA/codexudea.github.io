@@ -1,6 +1,6 @@
 <template>
   <div class="center-xs text-section">
-    <div v-bind:class="{ 'text-section__title--active': !useButton }" class="col-xs-12 title text-section__title">
+    <div v-bind:class="{ 'text-section__title--active': !useButton }" class="title text-section__title">
       <h1>{{title}}</h1>
     </div>
     <div class="text-section__description">
@@ -63,12 +63,14 @@ export default {
     flex-direction: column;
     background: color(astronaut);
     color: color(white);
+
     &__title {
-      margin-top: 100px;
+      margin: 100px 0 0 0;
       &--active {
         color: color(sunflower);
       }
     }
+
     &__description {
       margin-top: 80px;
       display: flex;
@@ -78,6 +80,7 @@ export default {
         font-size: font(font-16);
       }
     }
+
     &__button {
       margin: 100px 0;
     }

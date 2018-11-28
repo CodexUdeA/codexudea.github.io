@@ -38,12 +38,19 @@ img {
 }
 
 .title {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-bottom: 80px;
+  text-align: center;
+
   h1 {
-    font-weight: bold;
+    font-size: font(font-42);
+    font-weight: (bold);
   }
-   h1:after {
+
+  h1:after {
     content: ' ';
     position: absolute;
     display: block;
@@ -51,6 +58,13 @@ img {
     border-bottom: 1px solid #8d93c3;
   }
 }
+
+.subtitle {
+  color: color(white);
+  font-weight: font-weight(medium);
+  margin-top: 10px;
+}
+
 .container {
   max-width: 1024px;
   padding: 15px;

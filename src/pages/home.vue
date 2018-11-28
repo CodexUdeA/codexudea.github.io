@@ -18,10 +18,12 @@
     <hall-of-fame />
     <organizing-team />
     <text-section
+      id="speaker"
       title="Quiero dar una charla"
       description="Aliquip sint labore adipisicing irure. Labore reprehenderit sunt labore velit. Ullamco fugiat ad culpa anim officia eiusmod excepteur sint exercitation cillum. Consequat veniam laborum irure magna magna anim tempor aliquip reprehenderit quis voluptate laborum proident. Incididunt aliqua voluptate quis duis nostrud sunt quis aute nisi voluptate minim ut elit. Amet adipisicing minim in deserunt exercitation consectetur officia. Deserunt eu anim occaecat quis anim cillum est veniam ea sint id culpa ipsum."
       v-bind:useButton="true"
-      buttonLabel="Fill Form"
+      button-label="Dar una charla"
+      button-url="https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform"
     />
     <sponsors />
   </div>

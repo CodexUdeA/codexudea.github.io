@@ -1,6 +1,8 @@
 <template>
-  <section class="organizing-team">
-    <h1 class="organizing-team__title">Equipo organizador</h1>
+  <section id="team" class="organizing-team">
+    <div class="title">
+      <h1 class="organizing-team__title">Equipo organizador</h1>
+    </div>
     <div class="container">
       <div class="row around-xs">
         <team-card
@@ -41,11 +43,6 @@ export default {
 
   &__title {
     color: color(astronaut);
-    font-size: font(42);
-    font-weight: (bold);
-    margin: 0;
-    margin-bottom: 115px;
-    text-align: center;
   }
 }
 </style>
