@@ -138,5 +138,33 @@ module.exports = {
     picture: 'https://avatars1.githubusercontent.com/u/33497419?s=460&v=4',
     github: 'https://github.com/williamegomez',
     twitter: 'https://twitter.com/williamgomex'
+  },
+  dbotia: {
+    name: 'Diego José Luis Botia',
+    bio: 'Jefe del Departamento de Ingeniería de Sistemas de la UdeA',
+    picture: 'https://avatars1.githubusercontent.com/u/8139619?s=460&v=4',
+    github: 'https://github.com/dbotia',
+    twitter: 'https://twitter.com/djlbv'
+  },
+  moralesbang: {
+    name: 'Juan Camilo Morales',
+    bio: 'Desarrollador Ruby on Rails y React',
+    picture: 'https://avatars2.githubusercontent.com/u/22043902?s=460&v=4',
+    github: 'https://github.com/moralesbang',
+    twitter: 'https://twitter.com/moralesbang'
+  },
+  joh95: {
+    name: 'Johan Ospina Hincapié',
+    bio: 'Estudiante de Ingeniería de sistemas ',
+    picture: 'https://avatars2.githubusercontent.com/u/38740217?s=460&v=4',
+    github: 'https://github.com/joh95',
+    twitter: ''
+  },
+  breakermoob: {
+    name: 'Leon Dario Arango Amaya',
+    bio: '¡Me dedico a ver, entender e intentar cambiar el mundo!',
+    picture: 'https://avatars0.githubusercontent.com/u/26335558?s=460&v=4',
+    github: 'https://github.com/breakermoob',
+    twitter: ''
   }
 }
