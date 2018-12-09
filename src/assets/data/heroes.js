@@ -30,8 +30,8 @@ module.exports = {
   CarlosRengifo: {
     name: 'Carlos Rengifo',
     bio: '',
-    picture: '',
-    github: '',
+    picture: 'https://avatars1.githubusercontent.com/u/6728576?s=460&v=4',
+    github: 'https://github.com/andresburns',
     twitter: ''
   },
   jdjuan: {
