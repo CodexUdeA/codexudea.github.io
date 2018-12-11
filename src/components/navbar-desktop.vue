@@ -27,6 +27,9 @@
       <li class="navbar-desktop-item">
         <a href="#sponsors">Patrocinadores</a>
       </li>
+      <li class="navbar-desktop-item">
+        <a href="https://github.com/CodexUdeA/codigo-de-conducta">Código de conducta</a>
+      </li>
     </ul>
   </nav>
 </template>
