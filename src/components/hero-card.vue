@@ -7,10 +7,10 @@
       <p class="hero-card__name">{{hero.name}}</p>
       <p class="hero-card__bio">{{hero.bio}}</p>
       <div class="hero-card__social">
-        <a :href="hero.twitter">
+        <a v-if="hero.twitter" :href="hero.twitter">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>
-        <a :href="hero.github">
+        <a v-if="hero.github" :href="hero.github">
           <i class="fa fa-github" aria-hidden="true"></i>
         </a>
       </div>
