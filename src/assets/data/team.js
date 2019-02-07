@@ -19,5 +19,12 @@ module.exports = {
     picture: 'https://avatars3.githubusercontent.com/u/10585946?s=400&v=4',
     github: 'https://www.github.com/manucastrillonm',
     twitter: 'https://www.twitter.com/manucastrillonm'
+  },
+  PilarArroyave: {
+    name: 'Pilar Arroyave',
+    bio: '',
+    picture: 'https://avatars3.githubusercontent.com/u/30705652?s=400&u=276acb9ab1732ee3d069757b119945561e84b78b&v=4',
+    github: 'https://github.com/PilarArroyave',
+    twitter: 'https://twitter.com/PiliArroyave'
   }
 }
