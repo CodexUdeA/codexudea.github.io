@@ -27,11 +27,18 @@ module.exports = {
     github: 'https://github.com/PilarArroyave',
     twitter: 'https://twitter.com/PiliArroyave'
   },
-    veluaru: {
+  veluaru: {
     name: 'Angie Castañeda',
     bio: '',
     picture: 'https://avatars1.githubusercontent.com/u/42279901?s=400&u=b0452b6a6eafb156a8f3315ad8babee650585823&v=4',
     github: 'https://github.com/veluaru',
+    twitter: ''
+  },
+  cdanmontoya: {
+    name: 'Daniel Montoya',
+    bio: '',
+    picture: 'https://avatars2.githubusercontent.com/u/27966260?s=460&v=4',
+    github: 'https://github.com/cdanmontoya',
     twitter: ''
   }
 }
