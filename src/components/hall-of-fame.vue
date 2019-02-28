@@ -2,14 +2,15 @@
   <section id="hall-of-fame" class="hall-of-fame">
     <div class="title">
       <h1 class="hall-of-fame__title">Salón de la fama</h1>
-      <h2 class="hall-of-fame__subtitle subtitle">Personas que nos han ayudado a construir este sueño</h2>
+      <h2 class="hall-of-fame__subtitle subtitle">Gracias por aportar en la construcción de esta comunidad</h2>
     </div>
     <div class="container">
       <div class="row around-xs">
-        <team-card
+        <hero-card
           v-for="celebrity in celebrities"
           :key="celebrity.name"
-          :team-member="celebrity"
+          :hero="celebrity"
+          theme="white"
         />
       </div>
     </div>
@@ -18,12 +19,12 @@
 
 <script>
 import celebrities from '../assets/data/celebrities'
-import TeamCard from '../components/team-card'
+import HeroCard from '../components/hero-card'
 
 export default {
   name: 'hall-of-fame',
   components: {
-    TeamCard
+    HeroCard
   },
   data () {
     return {

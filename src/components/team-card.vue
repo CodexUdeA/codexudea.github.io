@@ -1,5 +1,5 @@
 <template>
-  <div v-bind:class="['team-card', theme]">
+  <div class="team-card">
     <div class="row center-xs">
       <div class="team-card-image-container">
         <img class="team-card-image" v-bind:src="teamMember.picture" alt="team member picture">
@@ -29,8 +29,7 @@ export default {
     teamMember: {
       type: Object,
       required: true
-    },
-    theme: String
+    }
   }
 }
 </script>
@@ -40,17 +39,13 @@ export default {
 @import '../styles/functions';
 
 .team-card {
-
-  &.green {
-    background-color: color(chenin);
-  }
-
-  background-color: color(white);
+  background-color: color(chenin);
   border-radius: 10px;
   height: 341px;
-  width: 235px;
+  margin: 15px auto;
   padding: 33px 19px;
   text-align: center;
+  width: 235px;
 
   &-bio {
     color: color(mine-shaft);

@@ -7,11 +7,11 @@
       <div class="row middle-xs">
         <div class="footer-social">
           <i class="fa fa-facebook-official" aria-hidden="true" />
-          <span class= "footer-social__text"> /codexUdeA </span>
+          <span class= "footer-social__text">/codexUdeA</span>
         </div>
         <div class="footer-social">
           <i class="fa fa-at" aria-hidden="true" />
-          <span class="footer-social__text"> info@codex.com </span>
+          <span class="footer-social__text">codex@udea.edu.co</span>
         </div>
         <div class="footer-social">
           <span> Made with </span>

@@ -3,9 +3,6 @@
     <div class="sponsors__title title">
       <h1>Patrocinadores</h1>
     </div>
-    <div class="sponsors__message">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nisi inventore distinctio debitis quia voluptatum architecto consequatur sed ullam voluptatibus error iusto, quibusdam facere! Earum at animi quasi beatae rerum illum sunt repellendus atque voluptas. Similique quos nulla mollitia dolorum reprehenderit ab eos quidem dignissimos, illo, aut eligendi nobis asperiores!</p>
-    </div>
     <div class="sponsors__list">
       <card v-for="item in sponsors" :key="item.name" v-bind:logo="item.logo" v-bind:sponsor_name="item.name"/>
     </div>
@@ -54,18 +51,6 @@ export default {
     color: color(astronaut);
     display: flex;
     justify-content: center;
-  }
-
-  &__message {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-    p {
-      max-width: 728px;
-      font-size: 14px;
-      line-height: 19px;
-    }
   }
 
   &__list {
