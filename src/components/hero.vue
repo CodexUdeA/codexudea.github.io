@@ -6,7 +6,6 @@
     <div class="hero__body">
       <h1 class="hero__headline">{{headline}}</h1>
       <h2 class="hero__sub-headline">{{subHeadline}}</h2>
-      <p class="hero__description">{{description}}</p>
       <Button
         v-bind:label="cta.label"
         v-bind:url="cta.url"
@@ -36,10 +35,6 @@ export default {
       required: true
     },
     subHeadline: {
-      type: String,
-      required: true
-    },
-    description: {
       type: String,
       required: true
     },
@@ -142,18 +137,6 @@ export default {
 
   &__sub-headline {
     font-weight: font-weight(medium);
-  }
-
-  &__description {
-    font-size: 20px;
-    font-weight: font-weight(light);
-    line-height: 1.4;
-    margin: 20px 0 30px;
-    max-width: 780px;
-
-    @include from(small) {
-      font-size: 26px;
-    }
   }
 
   &__button {

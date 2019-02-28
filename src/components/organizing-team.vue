@@ -9,7 +9,6 @@
           v-for="member in team"
           :key="member.name"
           :team-member="member"
-          theme="green"
         />
       </div>
     </div>

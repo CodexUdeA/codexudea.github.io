@@ -191,7 +191,7 @@ module.exports = {
   },
   18: {
     date: '22/11/2018',
-    venue: 'TBD',
+    venue: 'LIS',
     time: '14:00 - 16:00',
     title: 'UX & AdonisJS',
     talks: [{
@@ -206,8 +206,22 @@ module.exports = {
   19: {
     date: '6/12/2018',
     venue: 'Huge inc',
-    time: 'TBD',
+    time: '17:00 - 19:00',
     title: 'La última y nos vamos - celebración de fin de año',
+    talks: []
+  },
+  20: {
+    date: '14/02/2019',
+    venue: 'LIS',
+    time: '14:00 - 16:00',
+    title: 'Teoria del color para devs',
+    talks: []
+  },
+  21: {
+    date: '7/03/2019',
+    venue: 'LIS',
+    time: '14:00 - 16:00',
+    title: 'Animaciones en CSS',
     talks: []
   }
 }
