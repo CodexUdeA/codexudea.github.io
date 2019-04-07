@@ -13,7 +13,7 @@
         <a href="#events">Eventos</a>
       </li>
       <li class="navbar-desktop-item">
-        <a href="#heroes">Heroes</a>
+        <a href="#heroes">Héroes</a>
       </li>
       <li class="navbar-desktop-item">
         <a href="#hall-of-fame">Salón de la Fama</a>

@@ -1,8 +1,8 @@
 <template>
   <section id="heroes" class="heroes-section">
     <div class="title">
-      <h1 class="heroes-section__title">Heroes</h1>
-      <h2 class="subtitle heroes-section__subtitle">Personas que nos han compartido conocimiento</h2>
+      <h1 class="heroes-section__title">Héroes</h1>
+      <h2 class="subtitle heroes-section__subtitle">Personas que nos han compartido conocimiento.</h2>
     </div>
     <div class="container">
       <div class="row center-xs start-md">
