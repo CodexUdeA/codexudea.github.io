@@ -58,8 +58,8 @@ export default {
       heroCta: {
         label: 'Dar una charla',
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform',
-        target: '_self',
-        type: 'button'
+        target: '_blank',
+        type: 'string'
       },
       heroBgImage: '../assets/images/hero/bg-hero.jpg'
     }
