@@ -23,7 +23,7 @@ import button from './button/'
 export default {
   name: 'hero',
   components: {
-    'Button': button
+    Button: button
   },
   props: {
     image: {
@@ -44,9 +44,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/vars';
-@import '../styles/mixins';
-@import '../styles/functions';
+@import "../styles/vars";
+@import "../styles/mixins";
+@import "../styles/functions";
 
 .hero {
   align-items: center;
@@ -71,8 +71,8 @@ export default {
     overflow: hidden;
 
     &::after {
-      content: '';
-      background-color: rgba(#0D155E, 0.37);
+      content: "";
+      background-color: rgba(#0d155e, 0.37);
       border-radius: 100%;
       display: block;
       height: 120vw;
@@ -140,7 +140,7 @@ export default {
   }
 
   &__button {
-    margin-top: 10px;
+    margin-top: 1.5rem;
 
     @include from(small) {
       margin-top: 30px;
