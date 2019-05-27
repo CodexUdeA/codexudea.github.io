@@ -140,7 +140,7 @@ export default {
   }
 
   &__button {
-    margin-top: 10px;
+    margin-top: 1.5rem;
 
     @include from(small) {
       margin-top: 30px;

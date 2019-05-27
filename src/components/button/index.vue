@@ -50,7 +50,9 @@ export default {
 @import '../../styles/functions';
 
 .button {
+  display: inline-block;
   position: relative;
+  border: none;
   border-radius: 4px;
   padding: 12px 35px;
   font-size: 20px;
@@ -62,6 +64,7 @@ export default {
   transition-property: color;
   transition-duration: 0.3s;
   overflow: hidden;
+  cursor: pointer;
 
   @include from(small) {
     padding: 16px 35px;
