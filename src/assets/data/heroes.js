@@ -166,5 +166,12 @@ module.exports = {
     picture: 'https://avatars0.githubusercontent.com/u/26335558?s=460&v=4',
     github: 'https://github.com/breakermoob',
     twitter: ''
+  },
+  viktorarias: {
+    name: 'Victor Arias',
+    bio: '¡Diseñador Visual dedicado al Desarrollo Front End!',
+    picture: 'https://avatars1.githubusercontent.com/u/6463096?s=400&v=4',
+    github: 'https://github.com/viktorarias',
+    twitter: ''
   }
 }
