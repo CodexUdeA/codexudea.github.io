@@ -1,21 +1,25 @@
 <template>
-  <div class="footer row middle-xs">
-    <div class="footer-logo col-xs-3 col-sm-4 col-md-5 col-lg-6 center-xs">
-      <img class="footer-image" src="../assets/images/logo.svg" alt="codex logo">
-    </div>
-    <div class="footer-information col-xs-9 col-sm-8 col-md-7 col-lg-6">
+  <div class="footer">
+    <div class="container-fluid">
       <div class="row middle-xs">
-        <div class="footer-social">
-          <i class="fa fa-facebook-official" aria-hidden="true" />
-          <span class= "footer-social__text">/codexUdeA</span>
+        <div class="footer-logo col-xs-3 col-sm-4 col-md-5 col-lg-6 center-xs">
+          <img class="footer-image" src="../assets/images/logo.svg" alt="codex logo">
         </div>
-        <div class="footer-social">
-          <i class="fa fa-at" aria-hidden="true" />
-          <span class="footer-social__text">codex@udea.edu.co</span>
-        </div>
-        <div class="footer-social">
-          <span> Made with </span>
-          <i class="fa fa-heart" aria-hidden="true" />
+        <div class="footer-information col-xs-9 col-sm-8 col-md-7 col-lg-6">
+          <div class="row middle-xs">
+            <div class="footer-social">
+              <i class="fa fa-facebook-official" aria-hidden="true" />
+              <span class= "footer-social__text">/codexUdeA</span>
+            </div>
+            <div class="footer-social">
+              <i class="fa fa-at" aria-hidden="true" />
+              <span class="footer-social__text">codex@udea.edu.co</span>
+            </div>
+            <div class="footer-social">
+              <span> Made with </span>
+              <i class="fa fa-heart" aria-hidden="true" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +40,7 @@ export default {
   .footer {
     background-color: color(astronaut);
     color: color(white);
-    padding: 20px;
+    padding: 20px 0;
     font-weight: font-weight(light);
     font-size: font(font-16);
   }
