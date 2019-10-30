@@ -1,6 +1,6 @@
 <template>
   <div class="team-card">
-    <div class="row center-xs">
+    <div class="center-xs">
       <div class="team-card-image-container">
         <img class="team-card-image" v-bind:src="teamMember.picture" alt="team member picture">
       </div>
@@ -41,11 +41,9 @@ export default {
 .team-card {
   background-color: color(chenin);
   border-radius: 10px;
-  height: 341px;
-  margin: 15px auto;
+  height: 100%;
   padding: 33px 19px;
   text-align: center;
-  width: 235px;
 
   &-bio {
     color: color(mine-shaft);
@@ -54,6 +52,7 @@ export default {
   }
 
   &-image-container {
+    display: inline-block;
     width: 100px;
 
     img {
@@ -71,7 +70,15 @@ export default {
   &-social {
     a {
       color: color(astronaut);
-      margin-right: 21px;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+
+      .fa {
+        font-size: 24px;
+        padding: 0;
+      }
     }
   }
 }
