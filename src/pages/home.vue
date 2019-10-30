@@ -9,6 +9,7 @@
     />
     <text-section
       title="¿Quiénes somos?"
+      v-bind:useButton="false"
       description="Somos una comunidad de desarrollo de software formada por estudiantes de la Universidad de Antioquia, nuestro objetivo es compartir conocimiento sobre desarrollo web y mejorar nuestras habilidades de comunicación."
     />
     <next-events />
@@ -58,7 +59,7 @@ export default {
         label: 'Dar una charla',
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform',
         target: '_blank',
-        type: 'string'
+        type: 'anchor'
       },
       heroBgImage: '../assets/images/hero/bg-hero.jpg'
     }
