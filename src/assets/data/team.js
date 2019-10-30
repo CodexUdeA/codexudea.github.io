@@ -8,10 +8,10 @@ module.exports = {
   },
   am9805: {
     name: 'Angelica Arroyave',
-    bio: '',
+    bio: 'Developer Engineer at Experimentality S.A.S',
     picture: 'https://avatars0.githubusercontent.com/u/19578435?s=400&v=4',
     github: 'https://github.com/am9805',
-    twitter: ''
+    twitter: 'https://twitter.com/aam_9805'
   },
   manucastrillonm: {
     name: 'Manu Castrillón',
