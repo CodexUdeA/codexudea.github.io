@@ -38,26 +38,24 @@ export default {
   background-color: color(victoria);
   border-radius: 6px;
   display: flex;
-  height: 100px;
   margin: 10px;
+  min-height: 80px;
   width: 230px;
 
-  p {
-    margin: 0;
-  }
-
   &__image {
+    position: relative;
     width: 80px;
 
     img {
       border-radius: 6px 0 0 6px;
       height: 100%;
       object-fit: cover;
+      position: absolute;
     }
   }
 
   &__info {
-    padding: 5px;
+    padding: 10px 10px 30px;
     position: relative;
     width: 150px;
   }
@@ -66,11 +64,13 @@ export default {
     color: color(sunflower);
     font-size: font(font-16);
     font-weight: font-weight(medium);
+    margin: 0 0 5px;
   }
 
   &__bio {
     color: color(white);
     font-size: font(font-12);
+    margin: 0;
   }
 
   &__social {
