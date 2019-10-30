@@ -3,8 +3,10 @@
     <div class="sponsors__title title">
       <h1>Patrocinadores</h1>
     </div>
-    <div class="sponsors__list">
-      <card v-for="item in sponsors" :key="item.name" v-bind:logo="item.logo" v-bind:sponsor_name="item.name"/>
+    <div class="row center-xs middle-xs">
+      <div class="col-xs-12 col-sm-6 col-md-3" v-for="item in sponsors" :key="item.name">
+        <card v-bind:logo="item.logo" v-bind:sponsor_name="item.name" v-bind:sponsor_url="item.url"/>
+      </div>
     </div>
   </div>
 </template>
@@ -16,16 +18,24 @@ export default {
   name: 'sponsors',
   data: function () {
     return { sponsors: [{
-      name: 'huge',
-      logo: '/src/assets/images/sponsors/logo_huge.jpg'
+      name: 'Huge inc',
+      logo: '/src/assets/images/sponsors/logo_huge.jpg',
+      url: 'http://www.hugeinc.com'
     },
     {
-      name: 'LIS',
-      logo: '/src/assets/images/sponsors/logo_lis.jpeg'
+      name: 'GitHub Campus Experts',
+      logo: '/src/assets/images/sponsors/logo_gce.png',
+      url: 'http://www.github.com'
     },
     {
-      name: 'DIS',
-      logo: '/src/assets/images/sponsors/Logo_Ingeniería_de_Sistemas.jpg'
+      name: 'Laboratorio Integrado de Sistemas',
+      logo: '/src/assets/images/sponsors/logo_lis.jpeg',
+      url: 'http://lis.udea.edu.co'
+    },
+    {
+      name: 'Departamento de Ingenieria de Sistemas',
+      logo: '/src/assets/images/sponsors/logo_ids.jpg',
+      url: 'http://sistemas.udea.edu.co'
     }]
     }
   },
@@ -41,22 +51,12 @@ export default {
 @import '../styles/functions';
 
 .sponsors {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Roboto';
-  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1280px;
   padding: 30px;
 
   &__title {
     color: color(astronaut);
-    display: flex;
-    justify-content: center;
-  }
-
-  &__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 }
 </style>

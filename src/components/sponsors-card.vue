@@ -1,6 +1,8 @@
 <template>
-  <div class="sponsor__card">
-      <img v-bind:src="logo" v-bind:alt="sponsor_name">
+  <div class="sponsor-card">
+    <a v-bind:href="sponsor_url">
+      <img v-bind:src="logo" v-bind:alt="sponsor_name" class="sponsor-card__image">
+    </a>
   </div>
 </template>
 
@@ -15,6 +17,10 @@ export default {
     sponsor_name: {
       type: String,
       required: true
+    },
+    sponsor_url: {
+      type: String,
+      required: true
     }
   }
 }
@@ -25,14 +31,11 @@ export default {
 @import '../styles/mixins';
 @import '../styles/functions';
 
-.sponsor__card {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  margin: 50px;
+.sponsor-card {
+  margin-bottom: 30px;
 
-  & img {
-    width: 156px;
+  &__image {
+    max-width: 156px;
   }
 }
 </style>
