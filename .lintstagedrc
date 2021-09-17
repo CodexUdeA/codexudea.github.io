@@ -1,3 +1,0 @@
-{
-  "*.vue": ["eslint --fix", "git add"]
-}
