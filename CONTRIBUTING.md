@@ -1,76 +1,38 @@
-# Contributor Covenant Code of Conduct
+# :hear_no_evil: GIT WORKFLOW :hear_no_evil:!
 
-## Our Pledge
+Cuando vas a trabajar en un proyecto en Git, siempre van a existir issues o pequeñas tareas que deberán ser asignadas a diferentes participantes de dicho proyecto; Git workflow es una herramienta para realizar dichas tareas de manera óptima y con buenas prácticas (además de ser utilizado en la industria :wink:)  y esta guía vamos a aprender como trabajar con el. 
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
 
-## Our Standards
+# Ramas Magistrales :crown:
 
-Examples of behavior that contributes to creating a positive environment
-include:
+En el Git Flow existen dos ramas super importantes que deben ser tratadas como la realeza :crown::  el rey **Master** y la reina  **Develop**. Ellos son los encargados de que todo nuestro proyecto funcione, funcionando de la siguiente manera: Develop se encarga de manejar todos esos cambios, nuevas funcionalidades y demás checheres que le quieras añadir al proyecto :stuck_out_tongue_winking_eye: ; a esto se le conoce como **el entorno de desarrollo** :computer:. Por otro lado tenemos a  Master, este señor se encarga de mostrar la versión final esta si ahora si por chuchito que si de nuestro proyecto y es conocido como **el entorno de producción** :dollar:. 
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+## Crear Ramas :deciduous_tree:
 
-Examples of unacceptable behavior by participants include:
+Cuando creas una rama en tu proyecto, estas creando todo un nuevo ecosistema en el cual puedes plasmar todas tus ideas sin interferir con el progreso de tus compañeros, genial, ¿no? :grin:. Estos cambios no afectan la rama **Master**  y mucho menos **Develop** y eres libre  para hacer cuantos commits y cambios quieras :metal: hasta estos puedan ser añadidos (hacer merge) y revisados por otro colaborador.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+## ¿Qué ramas podemos sacar de Master y cuáles de Develop? :raising_hand:
 
-## Our Responsibilities
+Al empezar ahora si a echarle candela a la cosa, debemos tener muy presentes que **no debemos trabajar directamente en Develop ni en Master**, ellos estan grandecitos para funcionar por si solos, pero si podemos trabajar en ramas que provengan de ellos, pero, ¿cuáles? :dizzy_face:. Easy ma friend, al trabajar en nuevas funcionalidades (features) para nuestro proyecto, debes crear una rama que nazca de **Develop**, ejemplo: *mejorandoDevelop-issue* y así, al final todo los cambios hechos en *mejorandoDevelop-issue* ( y esta funcionando :unamused:)  pueden ser actualizados en **Develop** haciendo un *merge*. Ahora, las ramas que vamos a crear a partir de **Master** a parte de **Develop** (*pero no se lo digan*), son los *hotfix*; en estos vamos a hacer aquellos cambios que mejor dicho tienen que ser hechos ya mismo, pero ciudadito Wazowski, son cambios pequeños, nada funcional, nada que pueda afectar el orden de nuestro pequeño universo!. :eyes:
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+## Pull Request
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+O bien conocidos como **"pr"**, son esos pequeños heores  que impiden que hagamos push directamente a **Master**, que dañemos todo y nos echen :smile:. ¿Cómo funcionan?, cuando todo esta *melo* en **Develop**, osea funcionando perfectamente y listo para ser lanzado a producción, ya no hacemos aquel pequeño compañero conocido como merge, no, ahora viene su papá, **pr** para que le diga a alguno de los colaboradores de nuestro proyecto: *"Este men quiere hacer push a master, ¿esta todo bien, todo correcto?"* y si tu compañero lo aprueba, este se actualiza con **Master**.
 
-## Scope
+## ¿Cómo hacer un PR y un merge? :scream_cat:
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+Digamos que estamos haciendo un ERP para manejar una tienda y esta tiene clientes, stock, productos y demás. Actualmente tenemos lista la rama *feature/product*, como lo mencionamos anteriormente, debemos primero hacer *merge* con Develop de la siguiente manera:
 
-## Enforcement
+Nos posicionamos en *feature/product* y damos click en el botón *New Pull Request* (¿Sencillo, verdad? :wink: )
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+![](https://lh3.google.com/u/0/d/1so-w9smdx5d2Z9YGHi9WlbZQMWMMGiHh=w1366-h657-iv1)
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+Luego seleccionamos a que base (rama base), vamos a dirigir nuestro *merge* que en este caso sería **Develop** y al heroe de nuestro equipo que va a revisar nuestro avance!
 
-## Attribution
+![](https://lh3.google.com/u/0/d/1AFSczYScayhNNi9jCOO7pSMvdMj6YN6r=w1366-h657-iv1)
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+Una vez este revise, puede añadir comentarios a partes específicas de nuestras modificaciones y si al final aprueba, todos nuestros cambios serán actualizados en :sparkles: **Develop** :sparkles:
 
-[homepage]: https://www.contributor-covenant.org
+Bueno, ahora que **Develop** funciona de maravilla, ¿por qué no lo llevamos a **Master**? ¿cómo?, es el mismo procedimiento que hicimos para hacer un *merge*  :nail_care: solo que esta vez nuestra base cambia, dado que esta actualización la haremos de **Develop** a **Master**  #ElMacho :information_desk_person:.
 
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+Ahora si! manos a la obra y si no entendiste algo, take it easy, estamos para ayudarnos :heart:
