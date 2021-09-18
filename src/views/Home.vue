@@ -30,15 +30,15 @@
 </template>
 
 <script>
-import Bottom from '@/components/footer'
-import HallOfFame from '@/components/hall-of-fame'
-import Hero from '@/components/hero'
-import HeroesSection from '@/components/heroes-section'
-import NavbarDesktop from '@/components/navbar-desktop'
-import NextEvents from '@/components/next-events'
-import OrganizingTeam from '@/components/organizing-team'
-import Sponsors from '@/components/sponsors'
-import TextSection from '@/components/text-section'
+import Bottom from '@/components/Footer'
+import HallOfFame from '@/components/HallOfFame'
+import Hero from '@/components/Hero'
+import HeroesSection from '@/components/HeroesSection'
+import NavbarDesktop from '@/components/NavbarDesktop'
+import NextEvents from '@/components/NextEvents'
+import OrganizingTeam from '@/components/OrganizingTeam'
+import Sponsors from '@/components/Sponsors'
+import TextSection from '@/components/TextSection'
 
 export default {
   name: 'home-page',
