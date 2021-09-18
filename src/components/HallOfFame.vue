@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import celebrities from '../assets/data/celebrities'
-import HeroCard from '../components/hero-card'
+import celebrities from '@/assets/data/celebrities'
+import HeroCard from '@/components/HeroCard'
 
 export default {
   name: 'hall-of-fame',

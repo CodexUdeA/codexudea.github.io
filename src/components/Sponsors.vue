@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import sponsorCard from '../components/sponsors-card.vue'
+import sponsorCard from '@/components/SponsorsCard'
 
 export default {
   name: 'sponsors',

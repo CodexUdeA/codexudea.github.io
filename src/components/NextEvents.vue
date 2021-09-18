@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import events from '../assets/data/events'
-import EventCard from '../components/event-card'
+import events from '@/assets/data/events'
+import EventCard from '@/components/EventCard'
 
 export default {
   name: 'next-events',

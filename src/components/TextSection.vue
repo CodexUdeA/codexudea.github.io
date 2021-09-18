@@ -18,7 +18,8 @@
 </template>
 
 <script>
-import Button from './button/index'
+import Button from './Button'
+
 export default {
   name: 'text-section',
   components: {

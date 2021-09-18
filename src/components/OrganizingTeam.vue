@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import team from '../assets/data/team'
-import TeamCard from '../components/team-card'
+import team from '@/assets/data/team'
+import TeamCard from '@/components/TeamCard'
 
 export default {
   name: 'organizing-team',

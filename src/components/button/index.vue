@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import buttonTag from './button-tag'
-import buttonLink from './button-link'
+import buttonTag from './ButtonTag'
+import buttonLink from './ButtonLink'
 
 export default {
   name: 'cta',

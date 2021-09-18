@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import button from './button/'
+import button from './Button/'
 
 export default {
   name: 'hero',

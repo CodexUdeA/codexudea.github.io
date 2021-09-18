@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import heroes from '../assets/data/heroes'
-import HeroCard from '../components/hero-card'
+import heroes from '@/assets/data/heroes'
+import HeroCard from '@/components/HeroCard'
 
 export default {
   name: 'heroes-section',
