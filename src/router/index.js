@@ -1,29 +1,29 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
+import Home from "../views/Home.vue";
 
-import Events from '../pages/events.vue'
-import Home from '../pages/home.vue'
-import ShareATalk from '../pages/share-a-talk.vue'
+const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
+  {
+    path: "/events",
+    name: "Events",
+    component: () =>
+      import(/* webpackChunkName: "events" */ "../views/Events.vue"),
+  },
+  {
+    path: "/share-a-talk",
+    name: "share-a-talk",
+    component: () =>
+      import(/* webpackChunkName: "share-a-talk" */ "../views/ShareATalk.vue"),
+  },
+];
 
-Vue.use(Router)
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes,
+});
 
-export default new Router({
-  mode: 'history',
-  routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/events',
-      name: 'Events',
-      component: Events
-    },
-    {
-      path: '/share-a-talk',
-      name: 'ShareATalk',
-      component: ShareATalk
-    }
-  ]
-})
+export default router;
