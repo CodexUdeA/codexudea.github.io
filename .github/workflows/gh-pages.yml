@@ -24,6 +24,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: |
           npm install
+          npm install @vue/cli-service
           npm run build
 
       - name: deploy
