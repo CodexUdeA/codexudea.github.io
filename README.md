@@ -3,28 +3,33 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Project setup
+## Project setup :wrench:
 ```
-npm install
-```
+# Clone the repo
+> git clone https://github.com/CodexUdeA/codexudea.github.io.git
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Install dependencies
+> npm install
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
+# Compiles and hot-reloads for development
+> npm run serve
+ 
+# Compiles and minifies for production
+> npm run build
+
+# Lints and fixes files
+> npm run lint
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Docs :open_file_folder:
+
+- Grid system 👉 [Flexboxgrid](http://flexboxgrid.com/)
+- [Contribution guidelines](https://github.com/CodexUdeA/website/blob/master/CONTRIBUTING.md)
+- [Vue.js styleguide](https://vuejs.org/v2/style-guide/)
 
 ## Contributors ✨
 
