@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["events"],{aa9c:function(e,n,t){"use strict";t.r(n);var a=t("7a23"),s={class:"events-page"},c=Object(a["g"])("h1",null,"Events",-1),r=[c];function p(e,n,t,c,p,u){return Object(a["t"])(),Object(a["f"])("div",s,r)}var u={name:"events-page"},v=t("d959"),d=t.n(v);n["default"]=d()(u,[["render",p]])}}]);
+//# sourceMappingURL=events.425a9103.js.map

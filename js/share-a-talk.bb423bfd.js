@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["share-a-talk"],{e326:function(a,e,t){"use strict";t.r(e);var n=t("7a23"),r={class:"share-a-talk-page"},s=Object(n["g"])("h1",null,"Share a talk",-1),c=[s];function l(a,e,t,s,l,p){return Object(n["t"])(),Object(n["f"])("div",r,c)}var p={name:"share-a-talk-page"},u=t("d959"),d=t.n(u);e["default"]=d()(p,[["render",l]])}}]);
+//# sourceMappingURL=share-a-talk.bb423bfd.js.map
