@@ -10,9 +10,9 @@
         :key="item.name"
       >
         <card
-          v-bind:logo="item.logo"
-          v-bind:sponsor_name="item.name"
-          v-bind:sponsor_url="item.url"
+          :logo="item.logo"
+          :sponsor_name="item.name"
+          :sponsor_url="item.url"
         />
       </div>
     </div>

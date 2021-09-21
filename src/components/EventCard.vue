@@ -1,37 +1,37 @@
 <template>
-  <div class="event-card" v-bind:style="{ backgroundImage: 'url(' + imageUrl + ')'}">
+  <div class="event-card">
     <div class="event-card__content">
-      <h1 class="event-card__content__title">{{event.title}}</h1>
-      <span class="event-card__content__detail"><span>Fecha:</span> {{event.date}}</span>
-      <span class="event-card__content__detail"><span>Hora:</span> {{event.time}}</span>
-      <span class="event-card__content__detail"><span>Lugar:</span> {{event.venue}}</span>
+      <h1 class="event-card__content__title">{{ event.title }}</h1>
+      <span class="event-card__content__detail"
+        ><span>Fecha:</span> {{ event.date }}</span
+      >
+      <span class="event-card__content__detail"
+        ><span>Hora:</span> {{ event.time }}</span
+      >
+      <span class="event-card__content__detail"
+        ><span>Lugar:</span> {{ event.venue }}</span
+      >
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'event-card',
+  name: "event-card",
   props: {
     event: {
       type: Object,
-      required: true
-    },
-    imageUrl: {
-      type: String,
       required: true,
-      default: ''
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '../styles/vars';
-@import '../styles/functions';
+@import "../styles/vars";
+@import "../styles/functions";
 
 .event-card {
-  background-size: cover;
   border-radius: 10px;
   color: color(white);
   height: 469px;
@@ -39,10 +39,16 @@ export default {
   padding: 0;
 
   &__content {
+    background: linear-gradient(
+        to bottom,
+        rgba(color(astronaut), 0.5),
+        rgba(color(astronaut), 0.5)
+      ),
+      url("../assets/images/events/event-background.jpg");
+    background-size: cover;
     width: 100%;
-    height:100%;
+    height: 100%;
     border-radius: 10px;
-    background-color: rgba(color(astronaut), 0.5);
 
     &__title {
       font-size: font(font-24);

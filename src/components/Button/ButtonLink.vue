@@ -1,29 +1,25 @@
 <template>
-  <a
-    class="button"
-    v-bind:target="target"
-    v-bind:href="url"
-  >
-    <span class="button-label">{{label}}</span>
+  <a class="button" :target="target" :href="url">
+    <span class="button-label">{{ label }}</span>
   </a>
 </template>
 
 <script>
 export default {
-  name: 'button-link',
+  name: "button-link",
   props: {
     label: {
       type: String,
-      default: 'Label'
+      default: "Label",
     },
     url: {
       type: String,
-      default: '#'
+      default: "#",
     },
     target: {
       type: String,
-      default: '_self'
-    }
-  }
-}
+      default: "_self",
+    },
+  },
+};
 </script>

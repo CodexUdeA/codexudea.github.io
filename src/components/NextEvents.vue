@@ -10,7 +10,6 @@
           v-for="event in nextEvents"
           :key="event.name"
           :event="event"
-          image-url="/src/assets/images/events/event-background.jpg"
         />
       </div>
     </div>
@@ -18,31 +17,31 @@
 </template>
 
 <script>
-import events from '@/assets/data/events'
-import EventCard from '@/components/EventCard'
+import events from "@/assets/data/events";
+import EventCard from "@/components/EventCard";
 
 export default {
-  name: 'next-events',
+  name: "next-events",
   components: {
-    EventCard
+    EventCard,
   },
-  data () {
+  data() {
     return {
-      events
-    }
+      events,
+    };
   },
   computed: {
-    nextEvents () {
-      const events = Object.values(this.events)
-      return events.slice(-3, events.length)
-    }
-  }
-}
+    nextEvents() {
+      const events = Object.values(this.events);
+      return events.slice(-3, events.length);
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '../styles/vars';
-@import '../styles/functions';
+@import "../styles/vars";
+@import "../styles/functions";
 
 .next-events {
   background-color: color(white);

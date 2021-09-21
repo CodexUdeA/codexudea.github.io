@@ -4,7 +4,7 @@
     <hero />
     <text-section
       title="¿Quiénes somos?"
-      v-bind:useButton="false"
+      :useButton="false"
       description="Somos una comunidad de desarrollo de software formada por estudiantes de la Universidad de Antioquia, nuestro objetivo es compartir conocimiento sobre desarrollo web y mejorar nuestras habilidades de comunicación."
     />
     <next-events />
@@ -15,7 +15,7 @@
       id="speaker"
       title="Quiero dar una charla"
       description="Nos encantaría tenerte como invitado especial, si quieres compartir tu conocimiento con nosotros, solo debes completar el formulario y nos pondremos en contacto contigo."
-      v-bind:useButton="true"
+      :useButton="true"
       button-label="Dar una charla"
       button-url="https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform"
     />

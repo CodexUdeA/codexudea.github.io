@@ -2,19 +2,23 @@
   <div class="team-card">
     <div class="center-xs">
       <div class="team-card-image-container">
-        <img class="team-card-image" v-bind:src="teamMember.picture" alt="team member picture">
+        <img
+          class="team-card-image"
+          :src="teamMember.picture"
+          alt="team member picture"
+        />
       </div>
     </div>
     <div class="team-card-info">
-      <h4 class="team-card-name">{{teamMember.name}}</h4>
+      <h4 class="team-card-name">{{ teamMember.name }}</h4>
       <p class="team-card-bio">
-        {{teamMember.bio}}
+        {{ teamMember.bio }}
       </p>
       <div class="team-card-social">
-        <a v-if="teamMember.github" v-bind:href="teamMember.github">
+        <a v-if="teamMember.github" :href="teamMember.github">
           <i class="fa fa-2x fa-github" aria-hidden="true"></i>
         </a>
-        <a v-if="teamMember.twitter" v-bind:href="teamMember.twitter">
+        <a v-if="teamMember.twitter" :href="teamMember.twitter">
           <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
         </a>
       </div>
@@ -24,19 +28,19 @@
 
 <script>
 export default {
-  name: 'team-card',
+  name: "team-card",
   props: {
     teamMember: {
       type: Object,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '../styles/vars';
-@import '../styles/functions';
+@import "../styles/vars";
+@import "../styles/functions";
 
 .team-card {
   background-color: color(chenin);
