@@ -1,18 +1,21 @@
 <template>
-  <div id="sponsors" class="sponsors">
+  <div
+    id="sponsors"
+    class="sponsors"
+  >
     <div class="sponsors__title title">
       <h1>Patrocinadores</h1>
     </div>
     <div class="row center-xs middle-xs">
       <div
-        class="col-xs-12 col-sm-6 col-md-3"
         v-for="item in sponsors"
         :key="item.name"
+        class="col-xs-12 col-sm-6 col-md-3"
       >
         <card
           :logo="item.logo"
-          :sponsor_name="item.name"
-          :sponsor_url="item.url"
+          :sponsor-name="item.name"
+          :sponsor-url="item.url"
         />
       </div>
     </div>
@@ -23,7 +26,10 @@
 import sponsorCard from "@/components/SponsorsCard";
 
 export default {
-  name: "sponsors",
+  name: "Sponsors",
+  components: {
+    card: sponsorCard,
+  },
   data: function () {
     return {
       sponsors: [
@@ -49,9 +55,6 @@ export default {
         },
       ],
     };
-  },
-  components: {
-    card: sponsorCard,
   },
 };
 </script>

@@ -1,17 +1,36 @@
 <template>
   <div class="hero-card">
     <div class="hero-card__image">
-      <img :src="hero.picture" alt="foto del heroe">
+      <img
+        :src="hero.picture"
+        alt="foto del heroe"
+      >
     </div>
     <div class="hero-card__info">
-      <p class="hero-card__name">{{hero.name}}</p>
-      <p class="hero-card__bio">{{hero.bio}}</p>
+      <p class="hero-card__name">
+        {{ hero.name }}
+      </p>
+      <p class="hero-card__bio">
+        {{ hero.bio }}
+      </p>
       <div class="hero-card__social">
-        <a v-if="hero.twitter" :href="hero.twitter">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
+        <a
+          v-if="hero.twitter"
+          :href="hero.twitter"
+        >
+          <i
+            class="fa fa-twitter"
+            aria-hidden="true"
+          />
         </a>
-        <a v-if="hero.github" :href="hero.github">
-          <i class="fa fa-github" aria-hidden="true"></i>
+        <a
+          v-if="hero.github"
+          :href="hero.github"
+        >
+          <i
+            class="fa fa-github"
+            aria-hidden="true"
+          />
         </a>
       </div>
     </div>
@@ -20,7 +39,7 @@
 
 <script>
 export default {
-  name: 'hero-card',
+  name: 'HeroCard',
   props: {
     hero: {
       type: Object,

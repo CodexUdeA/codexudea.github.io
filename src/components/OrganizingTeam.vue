@@ -1,15 +1,21 @@
 <template>
-  <section id="team" class="organizing-team">
+  <section
+    id="team"
+    class="organizing-team"
+  >
     <div class="title">
-      <h1 class="organizing-team__title">Equipo organizador</h1>
+      <h1 class="organizing-team__title">
+        Equipo organizador
+      </h1>
     </div>
     <div class="container">
       <div class="row center-xs">
         <div
           v-for="member in team"
           :key="member.name"
-          class="organizing-team__item col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <team-card :team-member="member"/>
+          class="organizing-team__item col-xs-12 col-sm-6 col-md-4 col-lg-3"
+        >
+          <team-card :team-member="member" />
         </div>
       </div>
     </div>
@@ -21,7 +27,7 @@ import team from '@/assets/data/team'
 import TeamCard from '@/components/TeamCard'
 
 export default {
-  name: 'organizing-team',
+  name: 'OrganizingTeam',
   components: {
     TeamCard
   },

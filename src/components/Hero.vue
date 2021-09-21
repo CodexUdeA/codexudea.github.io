@@ -4,10 +4,12 @@
       <img
         class="hero__image-img"
         :src="require('/src/assets/images/hero/bg-hero.jpg')"
-      />
+      >
     </div>
     <div class="hero__body">
-      <h1 class="hero__headline">Codex UdeA</h1>
+      <h1 class="hero__headline">
+        Codex UdeA
+      </h1>
       <h2 class="hero__sub-headline">
         Somos estudiantes a los que nos apasiona el desarrollo de software y nos
         reunimos para aprender juntos.
@@ -27,7 +29,7 @@
 import button from "./Button/";
 
 export default {
-  name: "hero",
+  name: "Hero",
   components: {
     Button: button,
   },

@@ -5,24 +5,24 @@
         :src="require(`../assets/images/sponsors/${logo}`)"
         :alt="sponsor_name"
         class="sponsor-card__image"
-      />
+      >
     </a>
   </div>
 </template>
 
 <script>
 export default {
-  name: "sponsor-card",
+  name: "SponsorCard",
   props: {
     logo: {
       type: String,
       required: true,
     },
-    sponsor_name: {
+    sponsorName: {
       type: String,
       required: true,
     },
-    sponsor_url: {
+    sponsorUrl: {
       type: String,
       required: true,
     },

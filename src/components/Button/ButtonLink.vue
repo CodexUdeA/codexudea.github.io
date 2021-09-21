@@ -1,12 +1,16 @@
 <template>
-  <a class="button" :target="target" :href="url">
+  <a
+    class="button"
+    :target="target"
+    :href="url"
+  >
     <span class="button-label">{{ label }}</span>
   </a>
 </template>
 
 <script>
 export default {
-  name: "button-link",
+  name: "ButtonLink",
   props: {
     label: {
       type: String,

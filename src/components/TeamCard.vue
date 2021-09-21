@@ -6,20 +6,34 @@
           class="team-card-image"
           :src="teamMember.picture"
           alt="team member picture"
-        />
+        >
       </div>
     </div>
     <div class="team-card-info">
-      <h4 class="team-card-name">{{ teamMember.name }}</h4>
+      <h4 class="team-card-name">
+        {{ teamMember.name }}
+      </h4>
       <p class="team-card-bio">
         {{ teamMember.bio }}
       </p>
       <div class="team-card-social">
-        <a v-if="teamMember.github" :href="teamMember.github">
-          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        <a
+          v-if="teamMember.github"
+          :href="teamMember.github"
+        >
+          <i
+            class="fa fa-2x fa-github"
+            aria-hidden="true"
+          />
         </a>
-        <a v-if="teamMember.twitter" :href="teamMember.twitter">
-          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        <a
+          v-if="teamMember.twitter"
+          :href="teamMember.twitter"
+        >
+          <i
+            class="fa fa-2x fa-twitter"
+            aria-hidden="true"
+          />
         </a>
       </div>
     </div>
@@ -28,7 +42,7 @@
 
 <script>
 export default {
-  name: "team-card",
+  name: "TeamCard",
   props: {
     teamMember: {
       type: Object,

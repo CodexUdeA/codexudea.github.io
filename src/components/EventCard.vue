@@ -1,23 +1,25 @@
 <template>
   <div class="event-card">
     <div class="event-card__content">
-      <h1 class="event-card__content__title">{{ event.title }}</h1>
-      <span class="event-card__content__detail"
-        ><span>Fecha:</span> {{ event.date }}</span
-      >
-      <span class="event-card__content__detail"
-        ><span>Hora:</span> {{ event.time }}</span
-      >
-      <span class="event-card__content__detail"
-        ><span>Lugar:</span> {{ event.venue }}</span
-      >
+      <h1 class="event-card__content__title">
+        {{ event.title }}
+      </h1>
+      <span
+        class="event-card__content__detail"
+      ><span>Fecha:</span> {{ event.date }}</span>
+      <span
+        class="event-card__content__detail"
+      ><span>Hora:</span> {{ event.time }}</span>
+      <span
+        class="event-card__content__detail"
+      ><span>Lugar:</span> {{ event.venue }}</span>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "event-card",
+  name: "EventCard",
   props: {
     event: {
       type: Object,

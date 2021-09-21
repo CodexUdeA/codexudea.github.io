@@ -2,10 +2,16 @@
   <nav class="navbar-desktop">
     <ul class="navbar-desktop_list">
       <li class="menu-button">
-        <i class="fa fa-bars" aria-hidden="true"/>
+        <i
+          class="fa fa-bars"
+          aria-hidden="true"
+        />
       </li>
       <li class="navbar-desktop-brand">
-        <img src="../assets/images/logo.svg" alt="codex logo">
+        <img
+          src="../assets/images/logo.svg"
+          alt="codex logo"
+        >
       </li>
     </ul>
     <ul class="navbar-desktop_list">
@@ -36,7 +42,7 @@
 
 <script>
 export default {
-  name: 'navbar-desktop'
+  name: 'NavbarDesktop'
 }
 </script>
 

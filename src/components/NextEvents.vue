@@ -1,14 +1,19 @@
 <template>
-  <section id="events" class="next-events">
+  <section
+    id="events"
+    class="next-events"
+  >
     <div class="title">
-      <h1 class="next-events__title">Próximos eventos</h1>
+      <h1 class="next-events__title">
+        Próximos eventos
+      </h1>
     </div>
     <div class="container">
       <div class="row around-xs">
         <event-card
-          class="col-sm-4"
           v-for="event in nextEvents"
           :key="event.name"
+          class="col-sm-4"
           :event="event"
         />
       </div>
@@ -21,7 +26,7 @@ import events from "@/assets/data/events";
 import EventCard from "@/components/EventCard";
 
 export default {
-  name: "next-events",
+  name: "NextEvents",
   components: {
     EventCard,
   },

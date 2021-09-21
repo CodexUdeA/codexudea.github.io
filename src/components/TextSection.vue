@@ -24,7 +24,7 @@
 import Button from "./Button";
 
 export default {
-  name: "text-section",
+  name: "TextSection",
   components: {
     Button,
   },

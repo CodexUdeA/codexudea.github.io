@@ -1,12 +1,12 @@
 <template>
   <button class="button">
-    <span class="button-label">{{label}}</span>
+    <span class="button-label">{{ label }}</span>
   </button>
 </template>
 
 <script>
 export default {
-  name: 'button-link',
+  name: 'ButtonLink',
   props: {
     label: {
       type: String,

@@ -12,14 +12,7 @@ import buttonTag from './ButtonTag'
 import buttonLink from './ButtonLink'
 
 export default {
-  name: 'cta',
-  data: function () {
-    return {
-      component: this.type === 'button'
-        ? buttonTag
-        : buttonLink
-    }
-  },
+  name: 'Cta',
   props: {
     label: {
       type: String,
@@ -39,6 +32,13 @@ export default {
       validator: function (value) {
         return ['anchor', 'button'].indexOf(value) !== -1
       }
+    }
+  },
+  data: function () {
+    return {
+      component: this.type === 'button'
+        ? buttonTag
+        : buttonLink
     }
   }
 }

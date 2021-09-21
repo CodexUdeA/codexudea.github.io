@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'share-a-talk-page'
+  name: 'ShareATalkPage'
 }
 </script>
 

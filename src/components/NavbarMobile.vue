@@ -1,10 +1,10 @@
 <template>
-  <div class="navbar-mobile"></div>
+  <div class="navbar-mobile" />
 </template>
 
 <script>
   export default {
-    name: 'navbar-mobile'
+    name: 'NavbarMobile'
   }
 </script>
 
