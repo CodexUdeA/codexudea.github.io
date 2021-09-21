@@ -1,12 +1,7 @@
 <template>
   <div class="home-page">
     <navbar-desktop />
-    <hero
-      v-bind:cta="heroCta"
-      image="/src/assets/images/hero/bg-hero.jpg"
-      headline="Codex UdeA"
-      sub-headline="Somos estudiantes a los que nos apasiona el desarrollo de software y nos reunimos para aprender juntos."
-    />
+    <hero />
     <text-section
       title="¿Quiénes somos?"
       v-bind:useButton="false"
@@ -30,18 +25,18 @@
 </template>
 
 <script>
-import Bottom from '@/components/Footer'
-import HallOfFame from '@/components/HallOfFame'
-import Hero from '@/components/Hero'
-import HeroesSection from '@/components/HeroesSection'
-import NavbarDesktop from '@/components/NavbarDesktop'
-import NextEvents from '@/components/NextEvents'
-import OrganizingTeam from '@/components/OrganizingTeam'
-import Sponsors from '@/components/Sponsors'
-import TextSection from '@/components/TextSection'
+import Bottom from "@/components/Footer";
+import HallOfFame from "@/components/HallOfFame";
+import Hero from "@/components/Hero";
+import HeroesSection from "@/components/HeroesSection";
+import NavbarDesktop from "@/components/NavbarDesktop";
+import NextEvents from "@/components/NextEvents";
+import OrganizingTeam from "@/components/OrganizingTeam";
+import Sponsors from "@/components/Sponsors";
+import TextSection from "@/components/TextSection";
 
 export default {
-  name: 'home-page',
+  name: "home-page",
   components: {
     Bottom,
     HallOfFame,
@@ -51,18 +46,7 @@ export default {
     NextEvents,
     OrganizingTeam,
     Sponsors,
-    TextSection
+    TextSection,
   },
-  data () {
-    return {
-      heroCta: {
-        label: 'Dar una charla',
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform',
-        target: '_blank',
-        type: 'anchor'
-      },
-      heroBgImage: '../assets/images/hero/bg-hero.jpg'
-    }
-  }
-}
+};
 </script>

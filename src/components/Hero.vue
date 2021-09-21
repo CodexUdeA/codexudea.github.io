@@ -1,16 +1,22 @@
 <template>
   <div class="hero">
     <div class="hero__image">
-      <img class="hero__image-img" v-bind:src="image">
+      <img
+        class="hero__image-img"
+        :src="require('/src/assets/images/hero/bg-hero.jpg')"
+      />
     </div>
     <div class="hero__body">
-      <h1 class="hero__headline">{{headline}}</h1>
-      <h2 class="hero__sub-headline">{{subHeadline}}</h2>
+      <h1 class="hero__headline">Codex UdeA</h1>
+      <h2 class="hero__sub-headline">
+        Somos estudiantes a los que nos apasiona el desarrollo de software y nos
+        reunimos para aprender juntos.
+      </h2>
       <Button
-        v-bind:label="cta.label"
-        v-bind:url="cta.url"
-        v-bind:target="cta.target"
-        v-bind:type="cta.type"
+        label="Dar una charla"
+        url="https://docs.google.com/forms/d/e/1FAIpQLSfyeovAO7oIL4Zj3TdHXKJMKBzTo0d9EVxnpU4PgaEtEb4SxA/viewform"
+        target="_blank"
+        type="anchor"
         class="hero__button"
       />
     </div>
@@ -18,35 +24,20 @@
 </template>
 
 <script>
-import button from './Button/'
+import button from "./Button/";
 
 export default {
-  name: 'hero',
+  name: "hero",
   components: {
-    'Button': button
+    Button: button,
   },
-  props: {
-    image: {
-      type: String,
-      required: true
-    },
-    headline: {
-      type: String,
-      required: true
-    },
-    subHeadline: {
-      type: String,
-      required: true
-    },
-    cta: Object
-  }
-}
+};
 </script>
 
 <style lang="scss">
-@import '../styles/vars';
-@import '../styles/mixins';
-@import '../styles/functions';
+@import "../styles/vars";
+@import "../styles/mixins";
+@import "../styles/functions";
 
 .hero {
   align-items: center;
@@ -71,8 +62,8 @@ export default {
     overflow: hidden;
 
     &::after {
-      content: '';
-      background-color: rgba(#0D155E, 0.37);
+      content: "";
+      background-color: rgba(#0d155e, 0.37);
       border-radius: 100%;
       display: block;
       height: 120vw;
