@@ -215,6 +215,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "VasquezLab",
+      "name": "Andres Felipe Vasquez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2204207?v=4",
+      "profile": "https://www.anvargear.co/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7

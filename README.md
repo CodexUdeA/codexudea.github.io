@@ -1,6 +1,6 @@
 # codexudea.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Project setup :wrench:
@@ -66,6 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/svargaslondono"><img src="https://avatars.githubusercontent.com/u/14265560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sebastian Vargas L</b></sub></a><br /><a href="https://github.com/CodexUdeA/codexudea.github.io/commits?author=svargaslondono" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.anvargear.co/"><img src="https://avatars.githubusercontent.com/u/2204207?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andres Felipe Vasquez</b></sub></a><br /><a href="https://github.com/CodexUdeA/codexudea.github.io/commits?author=VasquezLab" title="Code">💻</a></td>
   </tr>
 </table>
 
