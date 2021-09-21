@@ -1,6 +1,6 @@
 # codexudea.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Project setup :wrench:
@@ -68,6 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/svargaslondono"><img src="https://avatars.githubusercontent.com/u/14265560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sebastian Vargas L</b></sub></a><br /><a href="https://github.com/CodexUdeA/codexudea.github.io/commits?author=svargaslondono" title="Code">💻</a></td>
     <td align="center"><a href="https://www.anvargear.co/"><img src="https://avatars.githubusercontent.com/u/2204207?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andres Felipe Vasquez</b></sub></a><br /><a href="https://github.com/CodexUdeA/codexudea.github.io/commits?author=VasquezLab" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Addin"><img src="https://avatars.githubusercontent.com/u/6179522?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juan Pablo Romero Mendoza</b></sub></a><br /><a href="https://github.com/CodexUdeA/codexudea.github.io/commits?author=Addin" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/moralesbang"><img src="https://avatars.githubusercontent.com/u/22043902?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juan Camilo Morales</b></sub></a><br /><a href="https://github.com/CodexUdeA/codexudea.github.io/commits?author=moralesbang" title="Code">💻</a></td>
   </tr>
 </table>
 
