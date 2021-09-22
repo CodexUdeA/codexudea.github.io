@@ -1,13 +1,18 @@
 // colors
 $colors: (
-  astronaut: #2C3581,
-  chenin: #E2E371,
-  golden-grass: #E3AE26,
-  mine-shaft: #3C3C3C,
-  radical-red: #FF236D,
-  sunflower: #E0E221,
-  white: #FFF,
-  victoria: #464E95
+  astronaut: #2c3581,
+  chenin: #e2e371,
+  golden-grass: #e3ae26,
+  mine-shaft: #3c3c3c,
+  radical-red: #ff236d,
+  sunflower: #e0e221,
+  white: #fff,
+  victoria: #464e95,
+  // new color scheme
+    purple: #4649a3,
+  yellow: #fdcd3a,
+  black: #090224,
+  red: #e51f34,
 );
 
 // font size
@@ -22,7 +27,7 @@ $fonts: (
   font-26: 26px,
   font-36: 36px,
   font-42: 42px,
-  font-52: 52px
+  font-52: 52px,
 );
 
 // font weight
@@ -31,15 +36,15 @@ $font-weight: (
   normal: 400,
   medium: 500,
   bold: 700,
-  black: 900
+  black: 900,
 );
 
 // breakpoints
 $breakpoints: (
-  extra-small: 560px,
-  small: 767px,
-  medium: 992px,
-  large: 1200px
+  xs: 560px,
+  sm: 767px,
+  md: 992px,
+  lg: 1200px,
 );
 
 // font awesome font path

@@ -1,8 +1,10 @@
-@import 'vars';
-@import 'mixins';
-@import 'functions';
-@import 'vendor';
+@import "vars";
+@import "mixins";
+@import "functions";
+@import "vendor";
 
-@import '../../node_modules/normalize.css/normalize.css';
-@import '../../node_modules/flexboxgrid/dist/flexboxgrid.min.css';
-@import '../../node_modules/font-awesome/scss/font-awesome';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+
+@import "../../node_modules/normalize.css/normalize.css";
+@import "../../node_modules/flexboxgrid/dist/flexboxgrid.min.css";
+@import "../../node_modules/font-awesome/scss/font-awesome";
