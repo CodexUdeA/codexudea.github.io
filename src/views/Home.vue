@@ -3,6 +3,7 @@
     <hero />
     <about />
     <events />
+    <team />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Events from "@/components/Events";
+import Team from "@/components/Team";
 
 export default {
   name: "HomePage",
@@ -17,6 +19,7 @@ export default {
     About,
     Hero,
     Events,
+    Team,
   },
 };
 </script>

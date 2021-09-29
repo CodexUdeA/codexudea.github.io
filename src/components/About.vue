@@ -3,7 +3,7 @@
     class="about"
     :aria-label="title"
   >
-    <h1 class="about_title">
+    <h1 class="section-title">
       {{ title }}
     </h1>
     <div class="container about_container">
@@ -37,30 +37,35 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../styles/vars";
+@import "../styles/mixins";
+
 .about {
   &_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+
+    @include from(sm) {
+      flex-direction: row;
+    }
   }
+
   &_image-container {
-    width: 40%;
+    width: 80%;
+
+    @include from(sm) {
+      width: 40%;
+    }
   }
 
   &_text-container {
-    width: 60%;
-  }
-  &_title {
-    border-radius: 1em 0 1em 0;
-    background: linear-gradient(
-      -100deg,
-      rgba(253, 255, 58, 0.15),
-      rgba(253, 255, 58, 0.9) 100%,
-      rgba(253, 255, 58, 0.25)
-    );
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
+    text-align: center;
+
+    @include from(sm) {
+      text-align: left;
+      width: 60%;
+    }
   }
 }
 </style>
