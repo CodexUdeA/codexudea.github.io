@@ -3,6 +3,7 @@
     <hero />
     <about />
     <events />
+    <share-with-us />
     <team />
   </div>
 </template>
@@ -12,6 +13,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
+import ShareWithUs from "@/components/ShareWithUs";
 
 export default {
   name: "HomePage",
@@ -20,6 +22,7 @@ export default {
     Hero,
     Events,
     Team,
-  },
+    ShareWithUs
+  }
 };
 </script>
