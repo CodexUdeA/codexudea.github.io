@@ -16,7 +16,11 @@
           :time="event.time"
         />
       </div>
-      <!-- <a href="">Ver todos los eventos</a> -->
+      <div class="events_all">
+        <router-link to="/events">
+          Ver todos los eventos
+        </router-link>
+      </div>
     </div>
   </section>
 </template>
@@ -41,6 +45,11 @@ export default {
 
 <style lang="scss">
 .events {
+  &_all {
+    margin-top: 20px;
+    text-align: center;
+  }
+
   &_card-container {
     display: flex;
     flex-direction: row;
