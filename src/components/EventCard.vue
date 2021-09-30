@@ -1,18 +1,35 @@
 <template>
   <div class="event-card">
-    <div class="event-card__content">
-      <h1 class="event-card__content__title">
-        {{ event.title }}
-      </h1>
-      <span
-        class="event-card__content__detail"
-      ><span>Fecha:</span> {{ event.date }}</span>
-      <span
-        class="event-card__content__detail"
-      ><span>Hora:</span> {{ event.time }}</span>
-      <span
-        class="event-card__content__detail"
-      ><span>Lugar:</span> {{ event.venue }}</span>
+    <div>
+      <img
+        class="event-card_image"
+        :src="require(`../assets/images/events/${eventType}.png`)"
+        alt=""
+      >
+    </div>
+    <div class="event-card_content">
+      <div class="event-card_content-header">
+        <span>{{ date }}</span>
+        <span>{{ eventType }}</span>
+      </div>
+      <div class="event-card_content-details">
+        <h3 class="event-card_title">
+          {{ title }}
+        </h3>
+        <p>{{ description }}</p>
+        <span><font-awesome-icon
+                class="event-card_icon"
+                icon="map-marker-alt"
+              />
+          <a :href="location">{{ location }}</a></span><br>
+        <span><font-awesome-icon
+          class="event-card_icon"
+          icon="clock"
+        />{{
+          time
+        }}
+          (UTC-5)</span>
+      </div>
     </div>
   </div>
 </template>
@@ -21,11 +38,31 @@
 export default {
   name: "EventCard",
   props: {
-    event: {
-      type: Object,
-      required: true,
+    eventType: {
+      type: String,
+      required: true
     },
-  },
+    date: {
+      type: String,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    location: {
+      type: String,
+      required: true
+    },
+    time: {
+      type: String,
+      required: true
+    }
+  }
 };
 </script>
 
@@ -34,39 +71,41 @@ export default {
 @import "../styles/functions";
 
 .event-card {
+  background: #eeeeee;
   border-radius: 10px;
-  color: color(white);
-  height: 469px;
-  max-width: 290px;
-  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  flex: none;
+  height: 400px;
+  margin-right: 20px;
+  max-width: 270px;
 
-  &__content {
-    background: linear-gradient(
-        to bottom,
-        rgba(color(astronaut), 0.5),
-        rgba(color(astronaut), 0.5)
-      ),
-      url("../assets/images/events/event-background.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+  &_icon {
+    color: #e51f34;
+    margin-right: 5px;
+  }
 
-    &__title {
-      font-size: font(font-24);
-      padding: 237px 62px 0 32px;
-      font-weight: bold;
+  &_image {
+    border-radius: 10px 10px 0 0;
+  }
+
+  &_content {
+    padding: 18px;
+
+    &-header {
+      color: #e51f34;
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      font-family: "Roboto Mono", monospace;
     }
 
-    &__detail {
-      padding: 0 62px 0 32px;
-      display: block;
-      padding-top: 10px;
-
-      span {
-        font-weight: font-weight(medium);
-      }
+    &-details {
+      font-size: 14px;
     }
+  }
+
+  &_title {
+    font-size: 16px;
   }
 }
 </style>

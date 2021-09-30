@@ -1,11 +1,13 @@
+// google fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+// external libraries
+@import "../../node_modules/normalize.css/normalize.css";
+
+// global styles
 @import "vars";
 @import "mixins";
 @import "functions";
 @import "vendor";
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-
-@import "../../node_modules/normalize.css/normalize.css";
-// @import "../../node_modules/flexboxgrid/dist/flexboxgrid.min.css";
-// @import "../../node_modules/font-awesome/scss/font-awesome";

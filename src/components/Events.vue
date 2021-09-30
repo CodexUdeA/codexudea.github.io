@@ -1,59 +1,51 @@
 <template>
-  <section
-    id="events"
-    class="events"
-  >
-    <div class="title">
-      <h1 class="next-events__title">
-        Eventos
-      </h1>
-    </div>
-    <!-- <div class="container">
-      <div class="row around-xs">
+  <section class="events">
+    <h1 class="section-title">
+      {{ title }}
+    </h1>
+    <div class="container">
+      <div class="events_card-container">
         <event-card
-          v-for="event in nextEvents"
-          :key="event.name"
-          class="col-sm-4"
-          :event="event"
+          v-for="(event, index) in nextEvents"
+          :key="index"
+          :event-type="event.eventType"
+          :date="event.date"
+          :title="event.title"
+          :description="event.description"
+          :location="event.location"
+          :time="event.time"
         />
       </div>
-    </div> -->
+      <!-- <a href="">Ver todos los eventos</a> -->
+    </div>
   </section>
 </template>
 
 <script>
-// import events from "@/assets/data/events";
-// import EventCard from "@/components/EventCard";
+import nextEvents from "@/assets/data/nextEvents";
+import EventCard from "@/components/EventCard";
 
 export default {
   name: "Events",
-  // components: {
-  //   EventCard,
-  // },
-  // data() {
-  //   return {
-  //     events,
-  //   };
-  // },
-  // computed: {
-  //   nextEvents() {
-  //     const events = Object.values(this.events);
-  //     return events.slice(-3, events.length);
-  //   },
-  // },
+  components: {
+    EventCard
+  },
+  data() {
+    return {
+      title: "Próximo eventos",
+      nextEvents
+    };
+  }
 };
 </script>
 
 <style lang="scss">
-// @import "../styles/vars";
-// @import "../styles/functions";
-
-// .next-events {
-//   background-color: color(white);
-//   padding: 88px 0;
-
-//   &__title {
-//     color: color(astronaut);
-//   }
-// }
+.events {
+  &_card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    overflow-y: scroll;
+  }
+}
 </style>

@@ -1,10 +1,9 @@
 <template>
   <section class="team">
-    <div class="title">
-      <h1 class="organizing-team__title">
-        Equipo organizador
-      </h1>
-    </div>
+    <h1 class="section-title">
+      Equipo
+    </h1>
+    <div class="container" />
     <!-- <div class="container">
       <div class="row center-xs">
         <div
