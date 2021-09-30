@@ -33,9 +33,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/vars";
-@import "../styles/functions";
-
 .share {
   text-align: center;
 

@@ -67,9 +67,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/vars";
-@import "../styles/functions";
-
 .event-card {
   background: #eeeeee;
   border-radius: 10px;
