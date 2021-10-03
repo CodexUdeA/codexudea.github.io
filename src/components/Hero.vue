@@ -8,7 +8,7 @@
         {{ description }}
       </h2>
     </div>
-    <span class="hero_bg" />
+    <span class="hero_bg section-wave-bg" />
   </div>
 </template>
 
@@ -19,9 +19,9 @@ export default {
     return {
       title: "Codex UdeA",
       description:
-        "Somos una comunidad de estudiantes de la Universidad de Antioquia apasionados por el desarrollo de software",
+        "Somos una comunidad de estudiantes de la Universidad de Antioquia apasionados por el desarrollo de software"
     };
-  },
+  }
 };
 </script>
 
@@ -55,13 +55,6 @@ export default {
 
   &_bg {
     background-image: url("../assets/backgrounds/hero-path.svg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    bottom: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 100%;
   }
 
   &_container {

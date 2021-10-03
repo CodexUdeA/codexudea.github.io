@@ -22,6 +22,7 @@
         </router-link>
       </div>
     </div>
+    <div class="events_bg section-wave-bg " />
   </section>
 </template>
 
@@ -45,11 +46,17 @@ export default {
 
 <style lang="scss">
 .events {
+  padding-bottom: 100px;
+  position: relative;
+
   &_all {
     margin-top: 20px;
     text-align: center;
   }
 
+  &_bg {
+    background-image: url("../assets/backgrounds/share-path-1.svg");
+  }
   &_card-container {
     display: flex;
     flex-direction: row;

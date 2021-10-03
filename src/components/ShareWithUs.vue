@@ -12,9 +12,10 @@
       <p>{{ description }}</p>
       <a
         class="share_cta"
-        href=""
+        href="/"
       >{{ buttonDescription }}</a>
     </div>
+    <div class="share_bg section-wave-bg " />
   </section>
 </template>
 
@@ -37,7 +38,13 @@ export default {
 @import "../styles/functions";
 
 .share {
+  background-color: #d9f9ff;
   text-align: center;
+  position: relative;
+
+  &_bg {
+    background-image: url("../assets/backgrounds/share-path-2.svg");
+  }
 
   &_container {
     display: flex;
