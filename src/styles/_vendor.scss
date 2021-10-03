@@ -16,8 +16,7 @@ a {
 }
 
 section {
-  margin: 50px 0;
-  padding: 40px 10px;
+  padding: 60px 10px;
 }
 
 img {
@@ -27,6 +26,12 @@ img {
 svg {
   width: 0;
   height: 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 *,

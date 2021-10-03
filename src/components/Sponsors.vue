@@ -18,6 +18,7 @@
         >
       </a>
     </div>
+    <div class="sponsors_bg" />
   </section>
 </template>
 
@@ -41,6 +42,22 @@ export default {
 @import "../styles/mixins";
 
 .sponsors {
+  padding-bottom: 100px;
+  position: relative;
+
+  &_bg {
+    background-image: url("../assets/backgrounds/footer-path.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
   &_container {
     display: flex;
     justify-content: center;

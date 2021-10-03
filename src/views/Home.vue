@@ -6,6 +6,7 @@
     <share-with-us />
     <team />
     <sponsors />
+    <bottom />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Events from "@/components/Events";
 import Team from "@/components/Team";
 import ShareWithUs from "@/components/ShareWithUs";
 import Sponsors from "@/components/Sponsors";
+import Bottom from "@/components/Footer";
 
 export default {
   name: "HomePage",
@@ -25,7 +27,8 @@ export default {
     Events,
     Team,
     ShareWithUs,
-    Sponsors
+    Sponsors,
+    Bottom
   }
 };
 </script>
