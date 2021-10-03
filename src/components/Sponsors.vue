@@ -9,6 +9,7 @@
         :key="index"
         :href="item.url"
         class="sponsors_cta"
+        target="_blank"
       >
         <img
           :src="require(`../assets/images/sponsors/${item.logo}`)"

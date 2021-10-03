@@ -13,6 +13,7 @@
           v-for="(item, index) in person.social"
           :key="index"
           :href="item.url"
+          target="_blank"
         >
           <font-awesome-icon
             class="team-card_social-icon"
