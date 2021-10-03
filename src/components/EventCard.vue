@@ -67,6 +67,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../styles/vars";
+@import "../styles/functions";
+
 .event-card {
   background: #eeeeee;
   border-radius: 10px;
@@ -77,7 +80,7 @@ export default {
   max-width: 270px;
 
   &_icon {
-    color: #e51f34;
+    color: color(alizarin-crimson);
     margin-right: 5px;
   }
 
@@ -89,7 +92,7 @@ export default {
     padding: 18px;
 
     &-header {
-      color: #e51f34;
+      color: color(alizarin-crimson);
       display: flex;
       justify-content: space-between;
       font-size: 12px;

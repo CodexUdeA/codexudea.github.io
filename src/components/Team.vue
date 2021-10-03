@@ -1,54 +1,43 @@
 <template>
   <section class="team">
     <h1 class="section-title">
-      Equipo
+      {{ title }}
     </h1>
-    <div class="container" />
-    <!-- <div class="container">
-      <div class="row center-xs">
-        <div
-          v-for="member in team"
-          :key="member.name"
-          class="organizing-team__item col-xs-12 col-sm-6 col-md-4 col-lg-3"
-        >
-          <team-card :team-member="member" />
-        </div>
-      </div>
-    </div> -->
+    <div class="container team_container">
+      <team-card
+        v-for="(item, index) in team"
+        :key="index"
+        :person="item"
+      />
+    </div>
   </section>
 </template>
 
 <script>
-// import team from '@/assets/data/team'
-// import TeamCard from '@/components/TeamCard'
+import team from "@/assets/data/team";
+import TeamCard from "@/components/TeamCard";
 
 export default {
   name: "Team",
-  // components: {
-  //   TeamCard
-  // },
-  // data () {
-  //   return {
-  //     team
-  //   }
-  // }
+  components: {
+    TeamCard
+  },
+  data() {
+    return {
+      title: "Equipo",
+      team
+    };
+  }
 };
 </script>
 
 <style lang="scss">
-// @import '../styles/vars';
-// @import '../styles/functions';
-
-// .organizing-team {
-//   background-color: color(white);
-//   padding: 88px 0;
-
-//   &__title {
-//     color: color(astronaut);
-//   }
-
-//   &__item {
-//     padding-bottom: 1rem;
-//   }
-// }
+.team {
+  &_container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 </style>

@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../styles/vars";
+@import "../styles/functions";
+
 .share {
   text-align: center;
 
@@ -43,10 +46,10 @@ export default {
   }
 
   &_cta {
-    background: #fdcd3a;
+    background: color(bright-sun);
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 15%) 2.4px 2.4px 3.2px;
-    color: #4649a3;
+    color: color(victoria);
     font-weight: 800;
     font-size: 18px;
     padding: 10px 20px;

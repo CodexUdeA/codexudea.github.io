@@ -1,44 +1,109 @@
-module.exports = {
-  YoQuinteroO: {
-    name: 'Martin Quintero',
-    bio: '',
-    picture: 'https://avatars3.githubusercontent.com/u/10585976?s=400&v=4',
-    github: 'https://www.github.com/martineliasq',
-    twitter: 'https://www.twitter.com/YoQuinteroO'
+module.exports = [
+  {
+    name: "Mickey Mouse",
+    description:
+      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+    picture:
+      "https://www.soy502.com/sites/default/files/styles/mobile_full_node/public/2020/Nov/17/mickey_mouse_aniversario_soy502_guatemala.jpg",
+    social: [
+      {
+        name: "twitter",
+        url: "https://www.twitter.com",
+      },
+      {
+        name: "linkedin",
+        url: "https://linkedin.com/",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+      },
+      {
+        name: "github",
+        url: "https://www.github.com",
+      },
+    ],
   },
-  am9805: {
-    name: 'Angelica Arroyave',
-    bio: 'Developer Engineer at Experimentality S.A.S',
-    picture: 'https://avatars0.githubusercontent.com/u/19578435?s=400&v=4',
-    github: 'https://github.com/am9805',
-    twitter: 'https://twitter.com/aam_9805'
+  {
+    name: "Pato Donald",
+    description:
+      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+    picture:
+      "https://static.wikia.nocookie.net/disney/images/d/d5/Donaldstar_1600.jpg",
+    social: [
+      {
+        name: "linkedin",
+        url: "https://linkedin.com/",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+      },
+      {
+        name: "github",
+        url: "https://www.github.com",
+      },
+    ],
   },
-  manucastrillonm: {
-    name: 'Manu Castrillón',
-    bio: 'Web Developer at Huge - Co-organizer of @pionerasdev',
-    picture: 'https://avatars3.githubusercontent.com/u/10585946?s=400&v=4',
-    github: 'https://www.github.com/manucastrillonm',
-    twitter: 'https://www.twitter.com/manucastrillonm'
+  {
+    name: "Minnie Mouse",
+    description:
+      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+    picture: "https://m.media-amazon.com/images/I/51RXH+eblxS._AC_SY1000_.jpg",
+    social: [
+      {
+        name: "twitter",
+        url: "https://www.twitter.com",
+      },
+      {
+        name: "linkedin",
+        url: "https://linkedin.com/",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+      },
+      {
+        name: "github",
+        url: "https://www.github.com",
+      },
+    ],
   },
-  PilarArroyave: {
-    name: 'Pilar Arroyave',
-    bio: '',
-    picture: 'https://avatars3.githubusercontent.com/u/30705652?s=400&u=276acb9ab1732ee3d069757b119945561e84b78b&v=4',
-    github: 'https://github.com/PilarArroyave',
-    twitter: 'https://twitter.com/PiliArroyave'
+  {
+    name: "Pluto",
+    description:
+      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+    picture: "https://www.ecured.cu/images/7/76/Pluto2.png",
+    social: [
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+      },
+      {
+        name: "github",
+        url: "https://www.github.com",
+      },
+    ],
   },
-  veluaru: {
-    name: 'Angie Castañeda',
-    bio: 'Systems Engineer Student and Lab administrator at UdeA',
-    picture: 'https://avatars1.githubusercontent.com/u/42279901?s=400&u=b0452b6a6eafb156a8f3315ad8babee650585823&v=4',
-    github: 'https://github.com/veluaru',
-    twitter: ''
+  {
+    name: "Goofy",
+    description:
+      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+    picture:
+      "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/original/products/86797/93795/Goofy-Disney-Card-Party-Face-Mask-available-now-at-starstills__37575.1574398848.jpg",
+    social: [
+      {
+        name: "twitter",
+        url: "https://www.twitter.com",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+      },
+      {
+        name: "github",
+        url: "https://www.github.com",
+      },
+    ],
   },
-  cdanmontoya: {
-    name: 'Daniel Montoya',
-    bio: 'Systems Engineer Student and Lab administrator at UdeA',
-    picture: 'https://avatars2.githubusercontent.com/u/27966260?s=460&v=4',
-    github: 'https://github.com/cdanmontoya',
-    twitter: ''
-  }
-}
+];

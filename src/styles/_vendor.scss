@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  color: #090224;
+  color: color(black-rock);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -41,7 +41,7 @@ body {
     rgba(253, 255, 58, 0.25)
   );
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   width: fit-content;
 }
 
@@ -61,8 +61,8 @@ body {
 // }
 
 a {
-  color: #090224;
-  text-decoration-color: #FDCD3A;
+  color: color(black-rock);
+  text-decoration-color: color(bright-sun);
   text-decoration-thickness: 2px;
 }
 
@@ -73,6 +73,11 @@ section {
 
 img {
   max-width: 100%;
+}
+
+svg {
+  width: 0;
+  height: 0;
 }
 
 // .title {
