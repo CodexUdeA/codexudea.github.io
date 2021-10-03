@@ -9,6 +9,26 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  color: color(black-rock);
+  text-decoration-color: color(bright-sun);
+  text-decoration-thickness: 2px;
+}
+
+section {
+  margin: 50px 0;
+  padding: 40px 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  width: 0;
+  height: 0;
+}
+
 *,
 *:before,
 *:after {
@@ -36,74 +56,11 @@ body {
   border-radius: 1em 0 1em 0;
   background: linear-gradient(
     -100deg,
-    rgba(253, 255, 58, 0.15),
-    rgba(253, 255, 58, 0.9) 100%,
-    rgba(253, 255, 58, 0.25)
+    rgba(253, 205, 58, 0.15),
+    rgba(253, 205, 58, 0.9) 100%,
+    rgba(253, 205, 58, 0.25)
   );
   display: block;
   margin: 20px auto;
   width: fit-content;
 }
-
-// h1, h2 {
-//   font-weight: normal;
-//   margin: 0;
-// }
-
-// ul {
-//   list-style-type: none;
-//   padding: 0;
-// }
-
-// li {
-//   display: inline-block;
-//   margin: 0 10px;
-// }
-
-a {
-  color: color(black-rock);
-  text-decoration-color: color(bright-sun);
-  text-decoration-thickness: 2px;
-}
-
-section {
-  margin: 50px 0;
-  padding: 10px;
-}
-
-img {
-  max-width: 100%;
-}
-
-svg {
-  width: 0;
-  height: 0;
-}
-
-// .title {
-//   align-items: center;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   margin-bottom: 80px;
-//   text-align: center;
-
-//   h1 {
-//     font-size: font(font-42);
-//     font-weight: (bold);
-//   }
-
-//   h1:after {
-//     content: ' ';
-//     position: absolute;
-//     display: block;
-//     width: 90px;
-//     border-bottom: 1px solid #8d93c3;
-//   }
-// }
-
-// .subtitle {
-//   color: color(white);
-//   font-weight: font-weight(medium);
-//   margin-top: 10px;
-// }

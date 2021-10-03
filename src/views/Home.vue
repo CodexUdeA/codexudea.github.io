@@ -5,6 +5,7 @@
     <events />
     <share-with-us />
     <team />
+    <sponsors />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import About from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
 import ShareWithUs from "@/components/ShareWithUs";
+import Sponsors from "@/components/Sponsors";
 
 export default {
   name: "HomePage",
@@ -22,7 +24,8 @@ export default {
     Hero,
     Events,
     Team,
-    ShareWithUs
+    ShareWithUs,
+    Sponsors
   }
 };
 </script>
