@@ -37,16 +37,19 @@ export default {
 </script>
 
 <style lang="scss">
-// @import "../styles/vars";
-// @import "../styles/mixins";
-// @import "../styles/functions";
+@import "../styles/vars";
+@import "../styles/mixins";
 
 .sponsors {
   &_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    @include from(sm) {
+      justify-content: space-between;
+    }
   }
 
   &_cta {
@@ -56,12 +59,5 @@ export default {
   &_image {
     max-width: 210px;
   }
-  // margin: 0 auto;
-  // max-width: 1280px;
-  // padding: 30px;
-
-  // &__title {
-  //   color: color(astronaut);
-  // }
 }
 </style>
