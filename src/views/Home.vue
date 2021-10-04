@@ -1,5 +1,6 @@
 <template>
   <div class="home-page">
+    <navbar />
     <hero />
     <about />
     <events />
@@ -18,6 +19,7 @@ import Team from "@/components/Team";
 import ShareWithUs from "@/components/ShareWithUs";
 import Sponsors from "@/components/Sponsors";
 import Bottom from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export default {
   name: "HomePage",
@@ -28,7 +30,8 @@ export default {
     Team,
     ShareWithUs,
     Sponsors,
-    Bottom
+    Bottom,
+    Navbar
   }
 };
 </script>

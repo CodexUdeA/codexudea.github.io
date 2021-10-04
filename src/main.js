@@ -1,6 +1,11 @@
 import App from "./App.vue";
 import { createApp } from "vue";
-import { faMapMarkerAlt, faClock } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMapMarkerAlt,
+  faClock,
+  faBars,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faGithub,
@@ -16,6 +21,8 @@ import "./styles/main.scss";
 library.add(
   faMapMarkerAlt,
   faClock,
+  faBars,
+  faTimes,
   faGithub,
   faTwitter,
   faLinkedin,
