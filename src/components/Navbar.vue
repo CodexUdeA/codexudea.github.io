@@ -14,7 +14,7 @@
     <div class="navbar_button-container">
       <button
         class="navbar_button"
-        @click="showNav"
+        @click="toggleNav"
       >
         <font-awesome-icon
           class="navbar_button-fa"
@@ -41,7 +41,7 @@
           <router-link
             class="navbar_item-link"
             :to="{ hash: item.url }"
-            @click="showNav"
+            @click="hideNav"
           >
             {{ item.name }}
           </router-link>
@@ -82,8 +82,11 @@ export default {
     };
   },
   methods: {
-    showNav() {
+    toggleNav() {
       this.navigationOpen = !this.navigationOpen;
+    },
+    hideNav() {
+      this.navigationOpen = false;
     }
   }
 };

@@ -11,31 +11,3 @@
   @warn "Unknown `#{$key}` in $colors.";
   @return null;
 }
-
-// get a font size from a map
-// Usage:
-// .my-element {
-//   font-size: font(font-size);
-// }
-@function font($key) {
-  @if map-has-key($fonts, $key) {
-    @return map-get($fonts, $key);
-  }
-
-  @warn "Unknown `#{$key}` in $fonts";
-  @return null;
-}
-
-// get a font-weight value from a map
-// Usage:
-// .my-element {
-//   font-weight: font-weight(font-weight-name);
-// }
-@function font-weight($key) {
-  @if map-has-key($font-weight, $key) {
-    @return map-get($font-weight, $key);
-  }
-
-  @warn "Unknown `#{$key}` in $font-weight.";
-  @return null;
-}

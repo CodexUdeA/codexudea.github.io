@@ -9,30 +9,6 @@ $colors: (
   white: #fff,
 );
 
-// font size
-$fonts: (
-  font-12: 12px,
-  font-14: 14px,
-  font-16: 16px,
-  font-18: 18px,
-  font-20: 20px,
-  font-22: 22px,
-  font-24: 24px,
-  font-26: 26px,
-  font-36: 36px,
-  font-42: 42px,
-  font-52: 52px,
-);
-
-// font weight
-$font-weight: (
-  light: 300,
-  normal: 400,
-  medium: 500,
-  bold: 700,
-  black: 900,
-);
-
 // breakpoints
 $breakpoints: (
   xs: 560px,
@@ -40,6 +16,3 @@ $breakpoints: (
   md: 992px,
   lg: 1200px,
 );
-
-// font awesome font path
-$fa-font-path: "~font-awesome/fonts/";
