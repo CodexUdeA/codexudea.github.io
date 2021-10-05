@@ -4,27 +4,33 @@ module.exports = [
     elements: [
       {
         name: "Home",
-        link: "/",
+        link: "#hero",
+        internalLink: true,
       },
       {
         name: "Sobre nosotros",
-        link: "/",
+        link: "#about",
+        internalLink: true,
       },
       {
         name: "Próximos eventos",
-        link: "/",
+        link: "#about",
+        internalLink: true,
       },
       {
         name: "Dar una charla",
-        link: "/",
+        link: "#share",
+        internalLink: true,
       },
       {
         name: "Equipo",
-        link: "/",
+        link: "#team",
+        internalLink: true,
       },
       {
         name: "Patrocinadores",
-        link: "/",
+        link: "#sponsors",
+        internalLink: true,
       },
     ],
   },
@@ -33,25 +39,33 @@ module.exports = [
     elements: [
       {
         name: "Código de conducta",
-        link: "/",
+        link: "https://github.com/CodexUdeA/codigo-de-conducta",
+        internalLink: false,
       },
       {
         name: "Repositorio",
-        link: "/",
+        link: "https://github.com/CodexUdeA/codexudea.github.io",
+        internalLink: false,
       },
     ],
   },
   {
     title: "Redes sociales",
     elements: [
-      { name: "Instagram", link: "https://www.instagram.com/" },
+      {
+        name: "Instagram",
+        link: "https://www.instagram.com/udeacodex/",
+        internalLink: false,
+      },
       {
         name: "GitHub",
-        link: "https://www.github.com/",
+        link: "https://github.com/CodexUdeA",
+        internalLink: false,
       },
       {
         name: "Discord",
-        link: "https://discord.gg/",
+        link: "https://discord.gg/SgByMRDWTy",
+        internalLink: false,
       },
     ],
   },

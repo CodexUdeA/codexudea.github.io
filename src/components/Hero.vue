@@ -1,5 +1,8 @@
 <template>
-  <div class="hero">
+  <div
+    id="hero"
+    class="hero"
+  >
     <div class="hero_container">
       <h1 class="hero_title">
         {{ title }}

@@ -38,10 +38,13 @@
           :key="index"
           class="navbar_item"
         >
-          <a
+          <router-link
             class="navbar_item-link"
-            :href="item.url"
-          >{{ item.name }}</a>
+            :to="{ hash: item.url }"
+            @click="showNav"
+          >
+            {{ item.name }}
+          </router-link>
         </li>
       </ul>
     </div>
@@ -69,11 +72,11 @@ export default {
         },
         {
           name: "Equipo",
-          url: "#about"
+          url: "#team"
         },
         {
           name: "Patrocinadores",
-          url: "#about"
+          url: "#sponsors"
         }
       ]
     };
@@ -81,7 +84,6 @@ export default {
   methods: {
     showNav() {
       this.navigationOpen = !this.navigationOpen;
-      console.log(`Navigation open ${this.navigationOpen}`);
     }
   }
 };

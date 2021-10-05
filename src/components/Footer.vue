@@ -23,9 +23,18 @@
               :key="optionIndex"
               class="footer_list-el"
             >
+              <router-link
+                v-if="footerOption.internalLink"
+                class="footer_link"
+                :to="{ hash: footerOption.link }"
+              >
+                {{ footerOption.name }}
+              </router-link>
               <a
+                v-else
                 :href="footerOption.link"
                 class="footer_link"
+                target="blank"
                 v-text="footerOption.name"
               />
             </li>

@@ -1,5 +1,6 @@
 <template>
   <section
+    id="about"
     class="about"
     :aria-label="title"
   >
@@ -30,9 +31,9 @@ export default {
     return {
       title: "Sobre nosotros",
       description:
-        "Elit dolore elit eu esse qui nostrud excepteur sint est. Ad minim mollit reprehenderit esse ea laborum. Ex et officia aliquip eiusmod dolor proident nisi pariatur esse culpa adipisicing et.",
+        "Elit dolore elit eu esse qui nostrud excepteur sint est. Ad minim mollit reprehenderit esse ea laborum. Ex et officia aliquip eiusmod dolor proident nisi pariatur esse culpa adipisicing et."
     };
-  },
+  }
 };
 </script>
 

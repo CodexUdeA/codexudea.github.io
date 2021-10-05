@@ -1,5 +1,8 @@
 <template>
-  <section class="sponsors">
+  <section
+    id="sponsors"
+    class="sponsors"
+  >
     <h1 class="section-title">
       {{ title }}
     </h1>

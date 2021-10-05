@@ -1,5 +1,8 @@
 <template>
-  <section class="share">
+  <section
+    id="share"
+    class="share"
+  >
     <div class="container share_container">
       <img
         class="share_doodle"
