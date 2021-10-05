@@ -17,18 +17,23 @@
           {{ title }}
         </h3>
         <p>{{ description }}</p>
-        <span><font-awesome-icon
-                class="event-card_icon"
-                icon="map-marker-alt"
-              />
-          <a :href="location">{{ location }}</a></span><br>
-        <span><font-awesome-icon
-          class="event-card_icon"
-          icon="clock"
-        />{{
-          time
-        }}
-          (UTC-5)</span>
+        <p class="event-card_toping">
+          <font-awesome-icon
+            class="event-card_icon"
+            icon="map-marker-alt"
+          />
+          <a
+            :href="location"
+            target="blank"
+          >{{ location }}</a>
+        </p>
+        <p class="event-card_toping">
+          <font-awesome-icon
+            class="event-card_icon"
+            icon="clock"
+          />{{ time }}
+          (UTC-5)
+        </p>
       </div>
     </div>
   </div>
@@ -71,12 +76,12 @@ export default {
 @import "../styles/functions";
 
 .event-card {
-  background: #eeeeee;
+  background: color(alabaster);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   flex: none;
-  height: 400px;
-  margin-right: 20px;
+  height: 420px;
+  margin-right: 25px;
   max-width: 270px;
 
   &_icon {
@@ -102,6 +107,10 @@ export default {
     &-details {
       font-size: 14px;
     }
+  }
+
+  &_toping {
+    margin: 6px 0;
   }
 
   &_title {

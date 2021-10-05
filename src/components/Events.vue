@@ -6,7 +6,7 @@
     <h1 class="section-title">
       {{ title }}
     </h1>
-    <div class="container">
+    <div class="container-full">
       <div class="events_card-container">
         <event-card
           v-for="(event, index) in nextEvents"
