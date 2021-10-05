@@ -26,9 +26,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Docs :open_file_folder:
 
-- Grid system 👉 [Flexboxgrid](http://flexboxgrid.com/)
 - [Contribution guidelines](https://github.com/CodexUdeA/website/blob/master/CONTRIBUTING.md)
-- [Vue.js styleguide](https://vuejs.org/v2/style-guide/)
+- [Vue.js styleguide](https://v3.vuejs.org/guide/introduction.html)
 
 ## Contributors ✨
 
