@@ -47,6 +47,12 @@ module.exports = [
         link: "https://github.com/CodexUdeA/codexudea.github.io",
         internalLink: false,
       },
+      {
+        name: "Google Calendar",
+        link:
+          "https://calendar.google.com/calendar/embed?src=c_b021njgrcbus85em4km8vhbhe0%40group.calendar.google.com&ctz=America%2FBogota",
+        internalLink: false,
+      },
     ],
   },
   {
@@ -65,6 +71,11 @@ module.exports = [
       {
         name: "Discord",
         link: "https://discord.gg/SgByMRDWTy",
+        internalLink: false,
+      },
+      {
+        name: "YouTube",
+        link: "https://www.youtube.com/channel/UCligS332QAvm_3e19vwjfvQ",
         internalLink: false,
       },
     ],

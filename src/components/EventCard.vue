@@ -111,6 +111,7 @@ export default {
 
   &_toping {
     margin: 6px 0;
+    word-break: break-all;
   }
 
   &_title {
