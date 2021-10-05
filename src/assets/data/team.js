@@ -103,4 +103,24 @@ module.exports = [
       },
     ],
   },
+  {
+    name: "Pilar Arroyave",
+    description:
+      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+    picture: "https://avatars.githubusercontent.com/u/30705652?v=4",
+    social: [
+      {
+        name: "twitter",
+        url: "https://www.twitter.com",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+      },
+      {
+        name: "github",
+        url: "https://www.github.com",
+      },
+    ],
+  },
 ];
