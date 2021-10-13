@@ -17,7 +17,7 @@
         <img
           class="about_vector"
           src="../assets/vectors/ReadingDoodle.svg"
-          alt=""
+          alt="About us"
         >
       </div>
     </div>

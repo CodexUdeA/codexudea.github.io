@@ -8,7 +8,10 @@
         to="/"
         class="navbar-item"
       >
-        <img src="../assets/images/logo.svg">
+        <img
+          src="../assets/images/logo.svg"
+          alt="codex logo"
+        >
       </router-link>
     </div>
     <div class="navbar_button-container">

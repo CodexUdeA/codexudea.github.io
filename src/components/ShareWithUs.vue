@@ -7,7 +7,7 @@
       <img
         class="share_doodle"
         src="../assets/vectors/LovingDoodle.svg"
-        alt=""
+        alt="share with us"
       >
       <h1 class="share_title">
         {{ title }}

@@ -4,7 +4,7 @@
       <img
         class="event-card_image"
         :src="require(`../assets/images/events/${eventType}.png`)"
-        alt=""
+        alt="`${eventType}`"
       >
     </div>
     <div class="event-card_content">
