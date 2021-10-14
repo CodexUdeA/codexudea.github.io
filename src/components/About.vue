@@ -17,7 +17,7 @@
         <img
           class="about_vector"
           src="../assets/vectors/ReadingDoodle.svg"
-          alt="About us"
+          alt="doodle de una persona leyendo un libro"
         >
       </div>
     </div>
