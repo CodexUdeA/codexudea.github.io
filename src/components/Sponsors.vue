@@ -17,6 +17,7 @@
         <img
           :src="require(`../assets/images/sponsors/${item.logo}`)"
           :alt="`${item.name} logo`"
+          class="sponsors_image"
         >
       </a>
     </div>
