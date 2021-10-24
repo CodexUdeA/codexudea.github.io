@@ -7,7 +7,7 @@
       <img
         class="share_doodle"
         src="../assets/vectors/LovingDoodle.svg"
-        alt=""
+        alt="doodle de una persona con corazón"
       >
       <h1 class="share_title">
         {{ title }}
