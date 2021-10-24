@@ -242,7 +242,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "georgioupanayiotis",
+      "name": "Panayiotis Georgiou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1752156?v=4",
+      "profile": "https://www.panayiotisgeorgiou.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
