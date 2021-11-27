@@ -28,7 +28,7 @@
           class="navbar_button-fa"
           icon="times"
           :style="[
-            !navigationOpen ? { display: 'none' } : { display: 'block' }
+            !navigationOpen ? { display: 'none' } : { display: 'block' },
           ]"
         />
       </button>
@@ -63,25 +63,25 @@ export default {
       options: [
         {
           name: "Sobre nosotros",
-          url: "#about"
+          url: "#about",
         },
         {
           name: "Eventos",
-          url: "#events"
+          url: "#events",
         },
         {
           name: "Quiero ser speaker",
-          url: "#share"
+          url: "#share",
         },
         {
           name: "Equipo",
-          url: "#team"
+          url: "#team",
         },
         {
           name: "Patrocinadores",
-          url: "#sponsors"
-        }
-      ]
+          url: "#sponsors",
+        },
+      ],
     };
   },
   methods: {
@@ -90,8 +90,8 @@ export default {
     },
     hideNav() {
       this.navigationOpen = false;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -189,16 +189,39 @@ export default {
     }
   }
 
+  &_item {
+    margin: 0 15px;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: color(bright-sun);
+      border-radius: 15%;
+      bottom: -6px;
+      height: 5px;
+      left: 0;
+      position: absolute;
+      transition: width 0.3s ease-in-out;
+      width: 0%;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+
   &_item-link {
     color: color(white);
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    padding: 15px;
     text-decoration: none;
   }
 
   &_list {
     display: flex;
+
     &-container {
       display: none;
 
