@@ -25,7 +25,7 @@
         </router-link>
       </div>
     </div>
-    <div class="events_bg section-wave-bg " />
+    <div class="events_bg section-wave-bg" />
   </section>
 </template>
 
@@ -36,14 +36,14 @@ import EventCard from "@/components/EventCard";
 export default {
   name: "Events",
   components: {
-    EventCard
+    EventCard,
   },
   data() {
     return {
-      title: "Próximo eventos",
-      nextEvents
+      title: "Eventos",
+      nextEvents,
     };
-  }
+  },
 };
 </script>
 
@@ -60,6 +60,7 @@ export default {
   &_bg {
     background-image: url("../assets/backgrounds/share-path-1.svg");
   }
+
   &_card-container {
     display: flex;
     flex-direction: row;

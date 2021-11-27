@@ -58,9 +58,14 @@ ul{
 }
 
 .container-full {
-  margin: 0 auto;
-  max-width: 90%;
-  padding: 15px;
+  margin-left: -10px;
+  margin-right: -10px;
+  
+  @include from(md){
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 15px;
+  }
 }
 
 .section-title {
