@@ -49,9 +49,9 @@ export default {
   props: {
     person: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 };
 </script>
 

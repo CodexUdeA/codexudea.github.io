@@ -31,7 +31,7 @@ export default {
     return {
       title: "Sobre nosotros",
       description:
-        "Elit dolore elit eu esse qui nostrud excepteur sint est. Ad minim mollit reprehenderit esse ea laborum. Ex et officia aliquip eiusmod dolor proident nisi pariatur esse culpa adipisicing et."
+        "Somos una comunidad de estudiantes de Ingeniería de Sistemas de la Universidad de Antioquia apasionados por el desarrollo de software, nos reunimos para compartir charlas, talleres y conferencias relacionadas con el mundo web y como ser mejores profesionales."
     };
   }
 };
