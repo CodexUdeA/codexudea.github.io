@@ -21,6 +21,7 @@
         >
       </div>
     </div>
+    <div class="about_bg section-wave-bg" />
   </section>
 </template>
 
@@ -31,9 +32,9 @@ export default {
     return {
       title: "Sobre nosotros",
       description:
-        "Somos una comunidad de estudiantes de Ingeniería de Sistemas de la Universidad de Antioquia apasionados por el desarrollo de software, nos reunimos para compartir charlas, talleres y conferencias relacionadas con el mundo web y como ser mejores profesionales."
+        "Somos una comunidad de estudiantes de Ingeniería de Sistemas de la Universidad de Antioquia apasionados por el desarrollo de software, nos reunimos para compartir charlas, talleres y conferencias relacionadas con el mundo web y como ser mejores profesionales.",
     };
-  }
+  },
 };
 </script>
 
@@ -42,6 +43,11 @@ export default {
 @import "../styles/mixins";
 
 .about {
+  position: relative;
+  &_bg {
+    background-image: url("../assets/backgrounds/share-path-1.svg");
+  }
+
   &_container {
     display: flex;
     flex-direction: column;

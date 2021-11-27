@@ -3,8 +3,8 @@
     <navbar />
     <hero />
     <about />
+    <announcement />
     <events />
-    <share-with-us />
     <team />
     <sponsors />
     <bottom />
@@ -16,7 +16,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
-import ShareWithUs from "@/components/ShareWithUs";
+import Announcement from "@/components/Announcement";
 import Sponsors from "@/components/Sponsors";
 import Bottom from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -28,10 +28,10 @@ export default {
     Hero,
     Events,
     Team,
-    ShareWithUs,
+    Announcement,
     Sponsors,
     Bottom,
-    Navbar
-  }
+    Navbar,
+  },
 };
 </script>

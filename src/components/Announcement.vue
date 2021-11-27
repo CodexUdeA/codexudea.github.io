@@ -17,7 +17,9 @@
         class="share_cta"
         to="/good-bye"
       >
-        {{ buttonDescription }}
+        {{
+          buttonDescription
+        }}
       </router-link>
     </div>
     <div class="share_bg section-wave-bg" />
@@ -26,7 +28,7 @@
 
 <script>
 export default {
-  name: "Announcement",
+  name: "Share",
   data() {
     return {
       title: "Tenemos algo que contarte",

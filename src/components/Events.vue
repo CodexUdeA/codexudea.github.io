@@ -25,7 +25,6 @@
         </router-link>
       </div>
     </div>
-    <div class="events_bg section-wave-bg" />
   </section>
 </template>
 
@@ -55,10 +54,6 @@ export default {
   &_all {
     margin-top: 20px;
     text-align: center;
-  }
-
-  &_bg {
-    background-image: url("../assets/backgrounds/share-path-1.svg");
   }
 
   &_card-container {
