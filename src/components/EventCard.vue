@@ -25,7 +25,8 @@
           />
           <a
             :href="location"
-            target="blank"
+            rel="noopener"
+            target="_blank"
           >{{ location }}</a>
         </p>
         <p class="event-card_toping">

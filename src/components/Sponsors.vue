@@ -12,6 +12,7 @@
         :key="index"
         :href="item.url"
         class="sponsors_cta"
+        rel="noopener"
         target="_blank"
       >
         <img

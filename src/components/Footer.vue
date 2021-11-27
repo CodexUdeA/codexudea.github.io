@@ -34,7 +34,8 @@
                 v-else
                 :href="footerOption.link"
                 class="footer_link"
-                target="blank"
+                rel="noopener"
+                target="_blank"
                 v-text="footerOption.name"
               />
             </li>
