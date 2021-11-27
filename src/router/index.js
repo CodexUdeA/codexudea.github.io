@@ -19,6 +19,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "share-a-talk" */ "../views/ShareATalk.vue"),
   },
+  {
+    path: "/good-bye",
+    name: "good-bye",
+    component: () =>
+      import(/* webpackChunkName: "share-a-talk" */ "../views/GoodBye.vue"),
+  },
 ];
 
 /* eslint-disable no-unused-vars */
