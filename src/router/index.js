@@ -14,16 +14,16 @@ const routes = [
       import(/* webpackChunkName: "events" */ "../views/Events.vue"),
   },
   {
-    path: "/share-a-talk",
-    name: "share-a-talk",
-    component: () =>
-      import(/* webpackChunkName: "share-a-talk" */ "../views/ShareATalk.vue"),
-  },
-  {
     path: "/good-bye",
     name: "good-bye",
     component: () =>
       import(/* webpackChunkName: "share-a-talk" */ "../views/GoodBye.vue"),
+  },
+  {
+    path: "/stats",
+    name: "stats",
+    component: () =>
+      import(/* webpackChunkName: "share-a-talk" */ "../views/Stats.vue"),
   },
 ];
 
