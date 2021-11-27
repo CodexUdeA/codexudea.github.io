@@ -70,10 +70,6 @@ export default {
           url: "#events",
         },
         {
-          name: "Quiero ser speaker",
-          url: "#share",
-        },
-        {
           name: "Equipo",
           url: "#team",
         },

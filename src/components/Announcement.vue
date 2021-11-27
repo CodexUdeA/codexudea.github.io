@@ -1,34 +1,32 @@
 <template>
   <section
-    id="share"
-    class="share"
+    id="announcement"
+    class="announcement"
   >
-    <div class="container share_container">
+    <div class="container announcement_container">
       <img
-        class="share_doodle"
+        class="announcement_doodle"
         src="../assets/vectors/LovingDoodle.svg"
         alt="doodle de una persona con corazón"
       >
-      <h1 class="share_title">
+      <h1 class="announcement_title">
         {{ title }}
       </h1>
       <p>{{ description }}</p>
       <router-link
-        class="share_cta"
+        class="announcement_cta"
         to="/good-bye"
       >
-        {{
-          buttonDescription
-        }}
+        {{ buttonDescription }}
       </router-link>
     </div>
-    <div class="share_bg section-wave-bg" />
+    <div class="announcement_bg section-wave-bg" />
   </section>
 </template>
 
 <script>
 export default {
-  name: "Share",
+  name: "Announcement",
   data() {
     return {
       title: "Tenemos algo que contarte",
@@ -44,7 +42,7 @@ export default {
 @import "../styles/vars";
 @import "../styles/functions";
 
-.share {
+.announcement {
   background-color: #d9f9ff;
   text-align: center;
   position: relative;
