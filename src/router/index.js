@@ -17,13 +17,13 @@ const routes = [
     path: "/good-bye",
     name: "good-bye",
     component: () =>
-      import(/* webpackChunkName: "share-a-talk" */ "../views/GoodBye.vue"),
+      import(/* webpackChunkName: "good-bye" */ "../views/GoodBye.vue"),
   },
   {
     path: "/stats",
     name: "stats",
     component: () =>
-      import(/* webpackChunkName: "share-a-talk" */ "../views/Stats.vue"),
+      import(/* webpackChunkName: "stats" */ "../views/Stats.vue"),
   },
 ];
 

@@ -66,16 +66,20 @@ module.exports = [
   {
     name: "Angelica Arroyave",
     description:
-      "Sunt laboris ea velit minim laborum ex eu quis cillum laboris officia ex eiusmod Mollit consectetur non fugiat aliqua incididunt ad cillum aute est commodo occaecat esse irure laboris.",
+      "Estudiante de último semestre de Ingeniería de Sistemas en la UdeA, actualmente trabajo como desarrolladora front-end en Experimentality. Me encantan las series y la peliculas. Amante de la cultura coreana y de la música.",
     picture: "https://avatars.githubusercontent.com/u/19578435?v=4",
     social: [
       {
         name: "instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/am_9805",
       },
       {
         name: "github",
-        url: "https://www.github.com",
+        url: "https://www.github.com/am9805",
+      },
+      {
+        name: "twitter",
+        url: "https://www.twitter.com/aam_9805",
       },
     ],
   },
