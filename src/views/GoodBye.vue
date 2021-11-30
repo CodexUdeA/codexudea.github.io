@@ -12,7 +12,7 @@
         Nuestra carta de despedida
       </h1>
       <div class="gb-letter_container">
-        <p>27 de Noviembre de 2021</p>
+        <p>30 de Noviembre de 2021</p>
         <p>Hola Amigxs!</p>
         <p>
           Los últimos 5 años han sido maravillosos, hemos aprendido sobre UN
