@@ -20,7 +20,7 @@
         />
       </div>
       <div class="events_all">
-        <router-link to="/events">
+        <router-link to="/eventos">
           Ver todos los eventos
         </router-link>
       </div>

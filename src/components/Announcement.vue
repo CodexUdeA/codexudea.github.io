@@ -15,7 +15,7 @@
       <p>{{ description }}</p>
       <router-link
         class="announcement_cta"
-        to="/good-bye"
+        to="/despedida"
       >
         {{ buttonDescription }}
       </router-link>

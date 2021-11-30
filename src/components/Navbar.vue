@@ -43,7 +43,7 @@
         >
           <router-link
             class="navbar_item-link"
-            :to="{ hash: item.url }"
+            :to="{ path: item.path, hash: item.hash }"
             @click="hideNav"
           >
             {{ item.name }}
@@ -63,19 +63,26 @@ export default {
       options: [
         {
           name: "Sobre nosotros",
-          url: "#about",
+          path: "/",
+          hash: "#about",
         },
         {
           name: "Eventos",
-          url: "#events",
+          path: "/eventos",
+        },
+        {
+          name: "Impacto",
+          path: "/impacto",
         },
         {
           name: "Equipo",
-          url: "#team",
+          path: "/",
+          hash: "#team",
         },
         {
           name: "Patrocinadores",
-          url: "#sponsors",
+          path: "/",
+          hash: "#sponsors",
         },
       ],
     };

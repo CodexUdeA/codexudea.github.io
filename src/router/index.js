@@ -8,22 +8,27 @@ const routes = [
     component: Home,
   },
   {
-    path: "/events",
+    path: "/eventos",
     name: "Events",
     component: () =>
       import(/* webpackChunkName: "events" */ "../views/Events.vue"),
   },
   {
-    path: "/good-bye",
+    path: "/despedida",
     name: "good-bye",
     component: () =>
       import(/* webpackChunkName: "good-bye" */ "../views/GoodBye.vue"),
   },
   {
-    path: "/impact",
+    path: "/impacto",
     name: "impact",
     component: () =>
-      import(/* webpackChunkName: "stats" */ "../views/Impact.vue"),
+      import(/* webpackChunkName: "impact" */ "../views/Impact.vue"),
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "404",
+    component: () => import(/* webpackChunkName: "404" */ "../views/Home.vue"),
   },
 ];
 

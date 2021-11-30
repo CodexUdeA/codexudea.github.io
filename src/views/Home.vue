@@ -4,7 +4,6 @@
     <hero />
     <about />
     <announcement />
-    <events />
     <team />
     <sponsors />
     <bottom />
@@ -14,7 +13,6 @@
 <script>
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Events from "@/components/Events";
 import Team from "@/components/Team";
 import Announcement from "@/components/Announcement";
 import Sponsors from "@/components/Sponsors";
@@ -26,7 +24,6 @@ export default {
   components: {
     About,
     Hero,
-    Events,
     Team,
     Announcement,
     Sponsors,

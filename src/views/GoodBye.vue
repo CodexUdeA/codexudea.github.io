@@ -38,16 +38,38 @@
           más aprendizajes nuestro paso por la U.
         </p>
         <p>
-          Si quieres saber mas sobre lo que hicimos en el proyecto, puedes
-          visitar nuestra
-          <a href="https://www.codex.dev">página de estadisticas</a>
+          Si quieres saber mas sobre lo que logramos en este tiempo, te
+          invitamos a ver
+          <router-link to="/impacto">
+            el impacto de Codex
+          </router-link> y la
+          <router-link to="/eventos">
+            lista de eventos
+          </router-link>
         </p>
         <p>Con cariño,</p>
         <p>Angelica, Manuela, Martin, Pilar, Sebastian y Valentina.</p>
-        <img
-          class="gb-doodle"
-          src="../assets/vectors/SwingingDoodle.svg"
-        >
+
+        <!-- video -->
+        <div class="gb-media">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/PSulpvndTBc"
+            title="video de codex"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
+
+        <!-- doodle -->
+        <div class="gb-media">
+          <img
+            class="gb-doodle"
+            src="../assets/vectors/SwingingDoodle.svg"
+          >
+        </div>
       </div>
       <div class="gb-letter_bg section-wave-bg" />
     </div>
@@ -118,6 +140,12 @@ export default {
     &_bg {
       background-image: url("../assets/backgrounds/share-path-2.svg");
     }
+  }
+
+  &-media {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
   }
 }
 </style>
