@@ -1,11 +1,14 @@
 <template>
   <div class="gb">
+    <!-- navigation -->
     <div class="gb-navbar">
       <navbar />
       <div class="gb-navbar_bg section-wave-bg" />
     </div>
+
+    <!-- content -->
     <div class="gb-letter">
-      <h1 class="bg-title section-title">
+      <h1 class="section-title">
         Nuestra carta de despedida
       </h1>
       <div class="gb-letter_container">
@@ -48,6 +51,8 @@
       </div>
       <div class="gb-letter_bg section-wave-bg" />
     </div>
+
+    <!-- footer -->
     <bottom />
   </div>
 </template>

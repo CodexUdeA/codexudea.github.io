@@ -1,9 +1,12 @@
 <template>
   <div class="impact">
+    <!-- navigation -->
     <div class="impact-navbar">
       <navbar />
       <div class="impact-navbar_bg section-wave-bg" />
     </div>
+
+    <!-- title -->
     <h1 class="section-title">
       Impacto de Codex
     </h1>
@@ -82,7 +85,11 @@
         </div>
       </div>
     </section>
-    <div class="impact-bottom_bg section-wave-bg" />
+
+    <!-- footer -->
+    <div class="impact-bottom">
+      <div class="impact-bottom_bg section-wave-bg" />
+    </div>
     <bottom />
 
     <!-- This SVG cannot be separated to a different file due to compatibility issues among browsers. -->
@@ -139,10 +146,17 @@ export default {
 @import "../styles/mixins";
 
 .impact {
-  position: relative;
+  &-bottom {
+    position: relative;
+    height: 100px;
 
-  &-bottom_bg {
-    background-image: url("../assets/backgrounds/footer-path.svg");
+    @include from(md) {
+      height: 150px;
+    }
+
+    &_bg {
+      background-image: url("../assets/backgrounds/footer-path.svg");
+    }
   }
 
   &-navbar {
