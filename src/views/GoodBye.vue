@@ -55,6 +55,7 @@
 <script>
 import Bottom from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+
 export default {
   name: "GoodBye",
   components: {
@@ -70,11 +71,8 @@ export default {
 @import "../styles/mixins";
 
 .gb {
-  &-bottom {
-    position: relative;
-    &_bg {
-      background-image: url("../assets/backgrounds/footer-path.svg");
-    }
+  &-bottom_bg {
+    background-image: url("../assets/backgrounds/footer-path.svg");
   }
 
   &-doodle {

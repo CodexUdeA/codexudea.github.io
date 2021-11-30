@@ -1,227 +1,338 @@
-module.exports = {
-  1: {
-    date: '17/02/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: '¡Hagamos una página web!(HTML)',
-      speaker: 'Jhon Tapias'
-    }]
+module.exports = [
+  {
+    date: "17/2/2017",
+    speaker: "Jhon Tapias",
+    title: "¡Hagamos una página web!(HTML)",
   },
-  2: {
-    date: '24/02/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: '¡Hagamos una página web! - Introducción a CSS (CSS)',
-      speaker: 'Manuela Castrillon'
-    }]
+  {
+    date: "24/2/2017",
+    speaker: "Manuela Castrillon",
+    title: "¡Hagamos una página web! - Introducción a CSS (CSS)",
   },
-  3: {
-    date: '10/03/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: '¡Hagamos una página web! - Introducción a Javascript(Javascript)',
-      speaker: 'Christian Delany'
-    },
-    {
-      title: '¿Donde está el servidor?(NodeJS)',
-      speaker: 'Martin Quintero'
-    }]
+  {
+    date: "10/3/2017",
+    speaker: "Christian Delany",
+    title: "¡Hagamos una página web! - Introducción a Javascript(Javascript)",
   },
-  4: {
-    date: '05/05/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: 'Creando nuestra página web(HTML/CSS/GitHub)',
-      speaker: 'Manuela Castrillon'
-    }]
+  {
+    date: "10/3/2017",
+    speaker: "Martin Quintero",
+    title: "¿Donde está el servidor ?(NodeJS)",
   },
-  5: {
-    date: '17/05/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: 'Desarrollo de aplicaciones móviles con Ionic 3 (Ionic)',
-      speaker: 'Manuela Castrillon'
-    },
-    {
-      title: 'El juego de la ballena azul con docker (Docker)',
-      speaker: 'Martin Quintero'
-    }]
+  {
+    date: "5/5/2017",
+    speaker: "Manuela Castrillon",
+    title: "Creando nuestra página web(HTML/CSS/GitHub)",
   },
-  6: {
-    date: '08/09/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: 'Como usar git y no perder la cabeza (Git)',
-      speaker: 'Carlos Rengifo'
-    }]
+  {
+    date: "17/5/2017",
+    speaker: "Manuela Castrillon",
+    title: "Desarrollo de aplicaciones móviles con Ionic 3 (Ionic)",
   },
-  7: {
-    date: '22/09/2017',
-    venue: 'LIS',
-    time: '16:00 - 18:00',
-    talks: [{
-      title: 'Angular: Aplicaciones prácticas (Angular)',
-      speaker: 'Juan Herrera'
-    }]
+  {
+    date: "17/5/2017",
+    speaker: "Martin Quintero",
+    title: "El juego de la ballena azul con docker (Docker)",
   },
-  8: {
-    date: '01/03/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Codex: Make it real (Bash/NodeJs/Angular/Docker)',
-      speaker: 'LIS'
-    }]
+  {
+    date: "25/8/2017",
+    speaker: "Martin Quintero",
+    title: "Chillin with docker(Docker)",
   },
-  9: {
-    date: '22/03/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Javascript : Crash Course (Javascript)',
-      speaker: 'Martin Quintero'
-    },
-    {
-      title: 'Contraseñas Seguras (Seguridad)',
-      speaker: 'Alejandro Castaño'
-    }]
+  {
+    date: "8/9/2017",
+    speaker: "Carlos Rengifo",
+    title: "Como usar git y no perder la cabeza (Git)",
   },
-  10: {
-    date: '19/04/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Accesibilidad web (Html / Accesibilidad)',
-      speaker: 'Juliana Gómez'
-    },
-    {
-      title: 'Introducción a React (React)',
-      speaker: 'Simón Hoyos'
-    }]
+  {
+    date: "22/9/2017",
+    speaker: "Juan Herrera",
+    title: "Angular: Aplicaciones prácticas (Angular)",
   },
-  11: {
-    date: '10/05/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Firestore and angular (Firebase/Angular)',
-      speaker: 'Juan Herrera'
-    },
-    {
-      title: 'Hiking with scala (Scala)',
-      speaker: 'Santiago Cadavid'
-    }]
+  {
+    date: "1/3/2018",
+    speaker: "Equipo LIS",
+    title: "Codex: Make it real (Bash, Node.js, Angular, Docker)",
   },
-  12: {
-    date: '31/05/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Desarrollo de Apps moviles nativas con React (React)',
-      speaker: 'Andres Pino'
-    },
-    {
-      title: 'Despliegue continuo con Circle CI (DevOps/Git/CircleCI)',
-      speaker: 'Camila Gomez'
-    }]
+  {
+    date: "6/11/2018",
+    speaker: "Jose Mario Gutierrez",
+    title: "Fundamentos de UX",
   },
-  13: {
-    date: '02/08/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Clean Code: Como mantener tu código mas limpio que tu habitación',
-      speaker: 'Daniel Correa'
-    },
-    {
-      title: 'JSConf EU Experience + Design Mistakes in NodeJS',
-      speaker: 'Manuela Castrillón'
-    }]
+  {
+    date: "6/11/2018",
+    speaker: "Pilar Arroyave",
+    title:
+      'Micro-interacciones. "Los detalles no son sólo detalles, los detalles hacen el diseño"',
   },
-  14: {
-    date: '23/08/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Modelos predictivos en los e-sports',
-      speaker: 'Sebas Pelaez'
-    },
-    {
-      title: 'Team work and seniority',
-      speaker: 'Jose Naranjo'
-    }]
+  {
+    date: "29/11/2018",
+    speaker: "Diego Botia",
+    title: "Hacia dónde va la Ingeniería de Sistemas",
   },
-  15: {
-    date: '13/09/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Testing en javascript',
-      speaker: 'Romel Perez'
-    }]
+  {
+    date: "30/11/2018",
+    speaker: "Camilo Morales",
+    title: "React Native, the fun way",
   },
-  16: {
-    date: '11/10/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    talks: [{
-      title: 'Web basics: técnicas y estrategias para optimizar una página web',
-      speaker: 'Mateo Calle'
-    },
-    {
-      title: 'Una mirada vulgar a HTTPS',
-      speaker: 'Martin Quintero'
-    }]
+  {
+    date: "1/12/2018",
+    speaker: "Johan Ospina",
+    title: "De 0 a 100 con Moby Dick",
   },
-  17: {
-    date: '18/10/2018',
-    venue: 'LIS',
-    time: '17:30 - 20:00',
-    title: 'Hacktober Fest celebration',
-    talks: [{
-      title: 'Codex - Hacktober Fest',
-      speaker: 'Codex core team'
-    }]
+  {
+    date: "2/12/2018",
+    speaker: "Leon Dario Amaya",
+    title: "The Real Dark Side",
   },
-  18: {
-    date: '22/11/2018',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    title: 'UX & AdonisJS',
-    talks: [{
-      title: 'Fundamentos de UX',
-      speaker: 'Jose Mario Gutierrez'
-    },
-    {
-      title: 'Desarrolla tu API con AdonisJS',
-      speaker: 'William Gomez'
-    }]
+  {
+    date: "6/11/2018",
+    speaker: "William Gomez",
+    title: "Desarrolla tu API con AdonisJS",
   },
-  19: {
-    date: '6/12/2018',
-    venue: 'Huge inc',
-    time: '17:00 - 19:00',
-    title: 'La última y nos vamos - celebración de fin de año',
-    talks: []
+  {
+    date: "6/11/2018",
+    speaker: "Diego Gutiérrez",
+    title: "CSS Animation - Basics",
   },
-  20: {
-    date: '14/02/2019',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    title: 'Teoria del color para devs',
-    talks: []
+  {
+    date: "7/12/2018",
+    speaker: "Andrés Felipe Vásquez",
+    title: "Aún sin titulo!",
   },
-  21: {
-    date: '7/03/2019',
-    venue: 'LIS',
-    time: '14:00 - 16:00',
-    title: 'Animaciones en CSS',
-    talks: []
-  }
-}
+  {
+    date: "1/11/2018",
+    speaker: "Pilar Arroyave",
+    title: "Los detalles no son sólo detalles, los detalles hacen el diseño",
+  },
+  {
+    date: "22/3/2018",
+    speaker: "Martin Quintero",
+    title: "Javascript : Crash Course (Javascript)",
+  },
+  {
+    date: "22/3/2018",
+    speaker: "Alejandro Castaño",
+    title: "Contraseñas Seguras (Seguridad)",
+  },
+  {
+    date: "19/4/2018",
+    speaker: "Juliana Gómez",
+    title: "Accesibilidad web (Html / Accesibilidad)",
+  },
+  {
+    date: "19/4/2018",
+    speaker: "Simón Hoyos",
+    title: "Introducción a React (React)",
+  },
+  {
+    date: "10/5/2018",
+    speaker: "Juan Herrera",
+    title: "Firestore and angular (Firebase/Angular)",
+  },
+  {
+    date: "10/5/2018",
+    speaker: "Santiago Cadavid",
+    title: "Hiking with scala (Scala)",
+  },
+  {
+    date: "31/5/2018",
+    speaker: "Andres Pino Vallejo",
+    title: "Desarrollo de Apps moviles nativas con React (React)",
+  },
+  {
+    date: "31/5/2018",
+    speaker: "Camila Gomez",
+    title: "Despliegue continuo con Circle CI (DevOps/Git/CircleCI)",
+  },
+  {
+    date: "2/8/2018",
+    speaker: "Daniel Correa",
+    title: "Clean Code: Como mantener tu código mas limpio que tu habitación",
+  },
+  {
+    date: "2/8/2018",
+    speaker: "Manuela Castrillon",
+    title: "JSConf EU Experience + Design Mistakes in NodeJS",
+  },
+  {
+    date: "23/8/2018",
+    speaker: "Sebas Pelaez",
+    title: "Modelos predictivos en los e-sports",
+  },
+  {
+    date: "23/8/2018",
+    speaker: "Jose Naranjo",
+    title: "Team work and seniority",
+  },
+  {
+    date: "13/9/2018",
+    speaker: "Romel Perez",
+    title: "Testing en javascript",
+  },
+  {
+    date: "11/10/2018",
+    speaker: "Mateo Calle",
+    title: "Web basics: técnicas y estrategias para optimizar una página web",
+  },
+  {
+    date: "11/10/2018",
+    speaker: "Martin Quintero",
+    title: "Una mirada vulgar a HTTPS",
+  },
+  {
+    date: "19/10/2018",
+    speaker: "Angelica Arroyave",
+    title: "Creando nuestro primer proyecto OS",
+  },
+  {
+    date: "19/10/2018",
+    speaker: "Martin Quintero",
+    title: "Creando nuestro primer proyecto OS",
+  },
+  {
+    date: "19/10/2018",
+    speaker: "Manuela Castrillon",
+    title: "Creando nuestro primer proyecto OS",
+  },
+  {
+    date: "10/8/2019",
+    speaker: "Andrés Felipe Vásquez",
+    title: "GitFlow",
+  },
+  {
+    date: "8/9/2019",
+    speaker: "Santiago Cadavid",
+    title: "Efectos en Scala (puede cambiar, no?).",
+  },
+  {
+    date: "14/2/2019",
+    speaker: "León Darío Arango Amaya",
+    title: "Teoria del Color para devs",
+  },
+  {
+    date: "14/2/2019",
+    speaker: "Juan David Trujillo",
+    title: "Un paisa en Google",
+  },
+  {
+    date: "7/3/2019",
+    speaker: "Victor Arias",
+    title: "Animación para la web con CSS y TweenMax",
+  },
+  {
+    date: "7/3/2019",
+    speaker: "Johan Ospina",
+    title: "¿Cómo preparar una cena con Jenkis y Docker?",
+  },
+  {
+    date: "7/3/2019",
+    speaker: "Luza Jaramillo",
+    title: "Colombiana en Electronic Arts",
+  },
+  {
+    date: "4/4/2019",
+    speaker: "Victor Arias",
+    title: "Soft Skills - Being a team player",
+  },
+  {
+    date: "4/4/2019",
+    speaker: "Andrés Moreno",
+    title: "Introducción a los microservicios",
+  },
+  {
+    date: "9/5/2019",
+    speaker: "Carlos Montoya",
+    title: "Introducción al cloud computing: desplegando un website en AWS",
+  },
+  {
+    date: "9/5/2019",
+    speaker: "Andres Pino Vallejo",
+    title: "Introducción al aprendizaje automático + Tensorflow",
+  },
+  {
+    date: "6/6/2019",
+    speaker: "León Darío Arango Amaya",
+    title: "Mockups like rockstars",
+  },
+  {
+    date: "6/6/2019",
+    speaker: "David Esteban Alvarez",
+    title: "Pruebas Automatizadas",
+  },
+  {
+    date: "29/8/2019",
+    speaker: "Jairo Campiña",
+    title: "Como convertir los datos en información útil con Tableau",
+  },
+  {
+    date: "29/8/2019",
+    speaker: "Angelica Arroyave",
+    title: "Aprendamos a hacer pruebas en Vue.js",
+  },
+  {
+    date: "21/9/2019",
+    speaker: "Codex Team",
+    title: "Coding Challenge",
+  },
+  {
+    date: "11/12/2019",
+    speaker: "Andrea Griffiths",
+    title: "Una Colombiana en GitHub",
+  },
+  {
+    date: "11/12/2019",
+    speaker: "Sebastian Vargas",
+    title: "Far, far away (trabajo remoto)",
+  },
+  {
+    date: "11/12/2019",
+    speaker: "Daniel Montoya",
+    title: "Simplificando tareas con RPA",
+  },
+  {
+    date: "11/12/2019",
+    speaker: "Andres Quiroga",
+    title: "Computacion cuantica para dummies",
+  },
+  {
+    date: "20/2/2020",
+    speaker: "Alejandro Castaño",
+    title: "Achievement Unlocked - GraphQL Revealed",
+  },
+  {
+    date: "20/2/2020",
+    speaker: "Jose Arango",
+    title: "Haciendo Machine Learning mas facil para todos",
+  },
+  {
+    date: "7/3/2020",
+    speaker: "Manuela Castrillon & Sebastian Vargas",
+    title: "Git from Zero to Hero",
+  },
+  {
+    date: "21/7/2021",
+    speaker: "Carlo Gilmar",
+    title: "Elixir y Erlang: Conociendo tecnologías de sistemas distribuidos",
+  },
+  {
+    date: "21/7/2021",
+    speaker: "Fernanda Ochoa",
+    title: "IoT sin miedo",
+  },
+  {
+    date: "10/8/2021",
+    speaker: "Mateo Aguirre Duque",
+    title: "Python Asíncrono",
+  },
+  {
+    date: "11/8/2021",
+    speaker: "Daniel Alejandro Molina Yepes",
+    title: "IDE IACode",
+  },
+  {
+    date: "11/11/2021",
+    speaker: "Manuela Castrillon",
+    title: "Introducción a Git para Open Source",
+  },
+];

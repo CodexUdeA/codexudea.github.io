@@ -10,13 +10,13 @@
       <a
         v-for="(item, index) in sponsors"
         :key="index"
-        :href="item.url"
+        :href="item.link"
         class="sponsors_cta"
         rel="noopener"
         target="_blank"
       >
         <img
-          :src="require(`../assets/images/sponsors/${item.logo}`)"
+          :src="require(`../assets/images/${item.logo}`)"
           :alt="`${item.name} logo`"
           class="sponsors_image"
         >
@@ -32,12 +32,12 @@ import sponsors from "@/assets/data/sponsors";
 export default {
   name: "Sponsors",
 
-  data: function() {
+  data: function () {
     return {
       title: "Patrocinadores",
-      sponsors
+      sponsors,
     };
-  }
+  },
 };
 </script>
 
